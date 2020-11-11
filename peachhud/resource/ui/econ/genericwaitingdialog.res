@@ -15,9 +15,9 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"BlackTransparent"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"				"Label"
 		"fieldName"					"TitleLabel"
 		"font"						"Size 15"
@@ -40,7 +40,7 @@
 	}
 
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"				"Label"
 		"fieldName"					"EllipsesLabel"
 		"font"						"Size 15"
@@ -61,7 +61,7 @@
 	}
 
 	"DurationLabel"
-	{	
+	{
 		"ControlName"				"Label"
 		"fieldName"					"DurationLabel"
 		"font"						"Size 15"
@@ -80,7 +80,7 @@
 		"fgcolor_override" 			"RedLight"
 		"bgcolor_override" 			"Blank"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"				"CExImageButton"
@@ -105,13 +105,13 @@
 		"Command"					"user_close"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}

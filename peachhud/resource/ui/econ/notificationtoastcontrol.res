@@ -12,12 +12,12 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"BlueTransparent70"
-		
+
 		"if_high_priority"
 		{
 			"border"				"BlueTransparent70"
 		}
-		
+
 		"paintborder"				"1"
 		"paintbackground"			"0"
 		"PaintBackgroundType"		"0"
@@ -62,12 +62,12 @@
 		"ControlName"				"CExImageButton"
 		"fieldName"					"TriggerButton"
 		"xpos"						"140"
-		
+
 		"if_one_button"
 		{
 			"xpos"					"163"
 		}
-		
+
 		"ypos"						"4"
 		"zpos"						"10"
 		"wide"						"24"
@@ -101,12 +101,12 @@
 		"ControlName"				"CExImageButton"
 		"fieldName"					"AcceptButton"
 		"xpos"						"140"
-		
+
 		"if_one_button"
 		{
 			"xpos"					"163"
 		}
-		
+
 		"ypos"						"4"
 		"zpos"						"10"
 		"wide"						"24"

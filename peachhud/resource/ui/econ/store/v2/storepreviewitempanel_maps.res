@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -30,7 +30,7 @@
 		"enabled"		"1"
 		"PaintBackground"	"0"
 	}
-	
+
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -46,7 +46,7 @@
 		"paintbackground"	"0"
 		"border"		"GrayBluBorder"
 		"PaintBorder"	"1"
-		
+
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
 		{
@@ -62,7 +62,7 @@
 			"paintborder"	"1"
 			"border"		"BlueTransparent70"
 		}
-	
+
 		"FooterTopPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -76,12 +76,12 @@
 			"xpos"			"9999"
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"c-230"
 		"ypos"			"c-140"
 		"zpos"			"1"
@@ -91,15 +91,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"0"
 
-		"paintbackground" "1"		
+		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -114,13 +114,13 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 	}
-	
+
 	"PreviewItemModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"PreviewItemModelPanel"
 		"xpos"			"c-110"
@@ -131,7 +131,7 @@
 		"visible"		"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"
-		
+
 		"model_xpos"	"25"
 		"model_ypos"	"17"
 		"model_wide"	"175"
@@ -140,9 +140,9 @@
 		"attrib_only"	"0"
 		"model_only"	"1"
 		"paint_icon_hide"	"0"
-		
+
 		"text_ypos"		"10"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type" "2"
@@ -150,7 +150,7 @@
 			"force_square_image"	"1"
 		}
 	}
-	
+
 	"ItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -170,8 +170,8 @@
 		"centerwrap"	"1"
 		"AllCaps"		"1"
 		"fgcolor"		"White"
-	}		
-	
+	}
+
 	"ClassUsageImage1"
 	{
 		"ControlName"	"CStorePreviewClassIcon"
@@ -268,7 +268,7 @@
 		"image_indent"	"2"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"IconsMoveLeftButton"
 	{
 		"ControlName"	"CExButton"
@@ -291,7 +291,7 @@
 		"command"		"icons_left"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	"IconsMoveRightButton"
 	{
 		"ControlName"	"CExButton"
@@ -314,8 +314,8 @@
 		"command"		"icons_right"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -361,8 +361,8 @@
 		"Command"		"-1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"RotRightButton"
 	{
 		"ControlName"	"CPreviewRotButton"
@@ -385,8 +385,8 @@
 		"Command"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-				
+	}
+
 	"NextWeaponButton"
 	{
 		"ControlName"	"CExButton"
@@ -410,7 +410,7 @@
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}					
+	}
 
 	"ZoomButton"
 	{
@@ -498,8 +498,8 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-	
+	}
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -523,17 +523,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
-		
+
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"RedTransparent70"
 		"border_armed"					"OrangeTransparent70"
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -557,17 +557,17 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
-	}		
-	
+	}
+
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
@@ -592,12 +592,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"GreenTransparent70"
 		"border_armed"					"OrangeTransparent70"
-	}		
+	}
 }

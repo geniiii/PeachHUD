@@ -121,7 +121,7 @@
 				"fieldName"				"Frame"
 				"xpos"					"9999"
 			}
-			
+
 			"Background"
 			{
 				"ControlName"			"EditablePanel"
@@ -150,10 +150,10 @@
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"		"0"
 				"paintborder"			"1"
-				
+
 				"border_default"		"BlueTransparent70"
 				"border_armed"			"OrangeTransparent70"
 
@@ -234,10 +234,10 @@
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"		"0"
 				"paintborder"			"1"
-				
+
 				"border_default"		"BlueTransparent70"
 				"border_armed"			"OrangeTransparent70"
 
@@ -334,13 +334,13 @@
 				"command"				"open_casual"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"		"3"
-			
+
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 				"paintbackground"		"0"
 				"paintborder"			"1"
-				
+
 				"border_default"		"BlueTransparent70"
 				"border_armed"			"OrangeTransparent70"
 

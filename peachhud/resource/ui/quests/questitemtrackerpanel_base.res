@@ -1,5 +1,5 @@
 "Resource/UI/QuestItemTrackerPanel_Base.res"
-{	
+{
 	"ItemName"
 	{
 		"ControlName"								"Label"
@@ -22,13 +22,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NotYetCommittedContainer"
-		"xpos"										"rs1"		
-		"ypos"										"0"		
+		"xpos"										"rs1"
+		"ypos"										"0"
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"10"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 
 		"proportionaltoparent"						"1"
 

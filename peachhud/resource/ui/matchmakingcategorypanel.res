@@ -11,7 +11,7 @@
 
 		"collapsed_height"					"57"
 		"resize_time"						"0"
-	
+
 	}
 
 	"TopContainer"
@@ -39,7 +39,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"mouseinputenabled"				"0"
-		
+
 			"proportionaltoparent"			"1"
 			"bgcolor_override"				"Blank"
 		}
@@ -55,7 +55,7 @@
 			"tall"							"f0"
 			"visible"						"1"
 			"enabled"						"1"
-			"scaleImage"					"1"	
+			"scaleImage"					"1"
 			"proportionaltoparent"			"1"
 		}
 
@@ -81,11 +81,11 @@
 
 			"stay_armed_on_click"			"1"
 			"button_activation_type"		"1"
-			
+
 			"sound_armed"					"ui/item_info_mouseover.wav"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"1"
 			"paintborder"					"0"
 
@@ -105,7 +105,7 @@
 			"tall"							"20"
 			"bgcolor_override"				"0"
 		}
-		
+
 		"Title"
 		{
 			"ControlName"					"CExLabel"
@@ -130,7 +130,7 @@
 			"mouseinputenabled"				"0"
 
 			"fgcolor"						"White"
-		}	
+		}
 
 		"Checkbutton"
 		{
@@ -145,9 +145,9 @@
 			"labeltext"						""
 			"smallcheckimage"				"0"
 
-			"sound_depressed"				"UI/buttonclickrelease.wav"	
+			"sound_depressed"				"UI/buttonclickrelease.wav"
 			"button_activation_type"		"1"
-			
+
 			"pin_to_sibling"				"Title"
 			"pin_corner_to_sibling"			"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
@@ -175,7 +175,7 @@
 			"proportionaltoparent" 			"1"
 			"mouseinputenabled"				"0"
 		}
-		
+
 		"TitleShadow"
 		{
 			"ControlName"					"CExLabel"

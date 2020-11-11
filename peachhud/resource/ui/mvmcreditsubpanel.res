@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSubPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -14,7 +14,7 @@
 		"AllCaps"					"1"
 		"fgcolor"					"White"
 	}
-	
+
 	"TableBackground"
 	{
 		"ControlName"				"EditablePanel"
@@ -27,7 +27,7 @@
 		"visible"					"1"
 		"bgcolor_override"			"BlackLightTransparent"
 	}
-	
+
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -42,7 +42,7 @@
 		"AllCaps"					"1"
 		"fgcolor"					"White"
 	}
-	
+
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -56,12 +56,12 @@
 		"tall"						"10"
 		"AllCaps"					"1"
 		"fgcolor"					"GreenLight"
-		
+
 		"pin_to_sibling"			"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditMissedTextLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -75,12 +75,12 @@
 		"tall"						"10"
 		"AllCaps"					"1"
 		"fgcolor"					"White"
-		
+
 		"pin_to_sibling"			"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"CreditMissedCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -94,12 +94,12 @@
 		"tall"						"10"
 		"AllCaps"					"1"
 		"fgcolor"					"RedLight"
-		
+
 		"pin_to_sibling"			"CreditMissedTextLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditBonusTextLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -113,12 +113,12 @@
 		"tall"						"10"
 		"AllCaps"					"1"
 		"fgcolor"					"White"
-		
+
 		"pin_to_sibling"			"CreditMissedTextLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"CreditBonusCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -132,12 +132,12 @@
 		"tall"						"10"
 		"AllCaps"					"1"
 		"fgcolor"					"GreenLight"
-		
+
 		"pin_to_sibling"			"CreditBonusTextLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditRatingLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -152,9 +152,9 @@
 		"AllCaps"					"1"
 		"fgcolor"					"White"
 	}
-	
-	
-		
+
+
+
 	"CreditRatingLabelShadow"
 	{
 		"ControlName"	"CExLabel"

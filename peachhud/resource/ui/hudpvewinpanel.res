@@ -12,15 +12,15 @@
 		"image"						"replay/thumbnails/panels/Material_Transparent_Black_70"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		
+
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"src_corner_height"			"32"
 		"src_corner_width"			"32"
-	
+
 		"draw_corner_width"			"8"
-		"draw_corner_height" 		"8"	
+		"draw_corner_height" 		"8"
 	}
 
 	"WaveCompleteContainer"
@@ -33,16 +33,16 @@
 		"tall"						"24"
 		"visible"					"1"
 		"PaintBackgroundType" 		"2"
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"WinningTeamLabelDropshadow"
 			"xpos"					"9999"
 		}
-		
+
 		"WinningTeamLabel"
-		{	
+		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"WinningTeamLabel"
 			"font"					"Size 20"
@@ -58,16 +58,16 @@
 			"textAlignment"			"Center"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			// blue Background
 			"PaintBackgroundType" 	"2"
-			"fgcolor_override"		"White"		
+			"fgcolor_override"		"White"
 			"bgcolor_override"		"RedLight"
 		}
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"WinReasonLabel"
 		"font"						"Size 14"
@@ -126,9 +126,9 @@
 
 		"src_corner_height"			"32"
 		"src_corner_width"			"32"
-	
+
 		"draw_corner_width"			"8"
-		"draw_corner_height" 		"8"	
+		"draw_corner_height" 		"8"
 	}
 
 	"RespecContainer"
@@ -141,7 +141,7 @@
 		"tall"						"25"
 		"visible"					"1"
 		"PaintBackgroundType" 		"2"
-	
+
 		"RespecTextLabelLoss"
 		{
 			"ControlName"			"CExLabel"
@@ -155,7 +155,7 @@
 			"tall"					"20"
 			"fgcolor"				"White"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"			"CExLabel"

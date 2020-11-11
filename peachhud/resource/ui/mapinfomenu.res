@@ -14,7 +14,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 	}
-	
+
 	"MapInfoMenuAnchor"						//Moves the map info menu as a whole
 	{
 		"ControlName"						"EditablePanel"
@@ -26,7 +26,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 	}
-	
+
 	"MapInfoFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -39,12 +39,12 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"Blank"
-		
+
 		"pin_to_sibling" 					"MapInfoMenuAnchor"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"						"CExLabel"
@@ -66,7 +66,7 @@
 		"font"								"Size 32"
 		"fgcolor"							"White"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"						"CExLabel"
@@ -88,7 +88,7 @@
 		"font"								"Size 20"
 		"fgcolor"							"White"
 	}
-	
+
 	"MapInfoText"
 	{
 		"ControlName"						"CExRichText"
@@ -106,7 +106,7 @@
 		"paintborder"						"0"
 		"textAlignment"						"west"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"MapInfoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
@@ -134,31 +134,31 @@
 		"command"							"continue"
 		"default"							"1"
 		"font"								"Size 24"
-		
+
 		"paintbackground"					"0"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"border_default"					"BlackTransparent50"
 		"border_armed"						"OrangeTransparent30"
 
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
 		"depressedFgColor_override" 		"White"
-		
+
 		"pin_to_sibling" 					"MapInfoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
-	
+
+
 	"TitleFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"TitleFrame"
 		"xpos"								"9999"
-		
+
 	}
 	"MapInfoBack"
 	{

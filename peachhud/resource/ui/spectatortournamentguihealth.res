@@ -16,7 +16,7 @@
 		"font"				"Size 12"
 		"fgcolor"			"Health"
 	}
-	
+
 	"PlayerStatusHealthValueSpectatorShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -34,8 +34,8 @@
 		"fgcolor"			"Shadows"
 		"pin_to_sibling"	"PlayerStatusHealthValueSpectator"
 	}
-	
-	
+
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"

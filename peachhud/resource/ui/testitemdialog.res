@@ -17,7 +17,7 @@
 		"settitlebarvisible"	""
 		"border"				"GrayBluBorder"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -37,7 +37,7 @@
 		"AllCaps"		"1"
 		"fgcolor_override" "White"
 	}
-	
+
 	"SelectModelLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -98,16 +98,16 @@
 		"default"		"1"
 		"Command"		"select_model"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -124,7 +124,7 @@
 		"PaintBackground"	"0"
 		"PaintBorder"	"1"
 		"border"	"BlueTransparent70"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -165,7 +165,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"BlackLightTransparent"
 			"disabledFgColor_override" "White"
@@ -175,7 +175,7 @@
 			"defaultSelectionBG2Color_override" "Blank"
 		}
 	}
-	
+
 	"ItemReplacedPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -189,7 +189,7 @@
 		"PaintBackground"	"0"
 		"PaintBorder"	"1"
 		"border"		"BlueTransparent70"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -229,7 +229,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"BlackLightTransparent"
 			"disabledFgColor_override" "White"
@@ -258,7 +258,7 @@
 			"fgcolor" 		"White"
 		}
 	}
-	
+
 	"BodygroupPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -269,7 +269,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		
+
 		"HideBodygroupLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -478,7 +478,7 @@
 			"disabledfgcolor2_override"	"White"
 		}
 	}
-	
+
 	"CustomizationsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -489,7 +489,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		
+
 		"PaintColorLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -529,7 +529,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"BlackLightTransparent"
 			"disabledFgColor_override" "White"
@@ -578,7 +578,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"BlackLightTransparent"
 			"disabledFgColor_override" "White"
@@ -588,7 +588,7 @@
 			"defaultSelectionBG2Color_override" "Blank"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -611,16 +611,16 @@
 		"default"		"1"
 		"Command"		"cancel"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -646,20 +646,20 @@
 		"default"		"1"
 		"Command"		"ok"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"xpos"			"10"

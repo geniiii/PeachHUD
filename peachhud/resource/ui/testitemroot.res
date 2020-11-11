@@ -17,7 +17,7 @@
 		"paintborder"			"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"Mountain"
 	{
 		"ControlName"			"ImagePanel"
@@ -32,7 +32,7 @@
 		"image"					"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"			"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -53,7 +53,7 @@
 		"fgcolor_override" 	"White"
 		"alpha" 			"175"
 	}
-	
+
 	"ClassUsagePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -66,7 +66,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"	"BlackTransparent70"
-		
+
 		"ClassUsageLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -86,7 +86,7 @@
 			"AllCaps"		"1"
 			"fgcolor"		"White"
 		}
-		
+
 		"ClassCheckBox0"
 		{
 			"ControlName"	"CheckButton"
@@ -296,9 +296,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"White"
-		}	
+		}
 	}
-	
+
 	"TestingPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -311,7 +311,7 @@
 		"PaintBackgroundType"	"2"
 		"PaintBackground"	"0"
 		"border"	"BlackTransparent70"
-	
+
 		"CurrentlyTestingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -331,7 +331,7 @@
 			"AllCaps"		"1"
 			"fgcolor"		"White"
 		}
-		
+
 		"TestingWeaponLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -393,16 +393,16 @@
 			"default"		"1"
 			"Command"		"item_test0"
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -427,16 +427,16 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"item_remove0"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"RedTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -501,16 +501,16 @@
 			"default"		"1"
 			"Command"		"item_test1"
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -535,16 +535,16 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"item_remove1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"RedTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -609,16 +609,16 @@
 			"default"		"1"
 			"Command"		"item_test2"
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -643,16 +643,16 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"item_remove2"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"RedTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -717,16 +717,16 @@
 			"default"		"1"
 			"Command"		"item_test3"
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -751,21 +751,21 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"item_remove3"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"RedTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
 	}
-	
+
 	"BotAdditionPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -778,7 +778,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"BlackTransparent70"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -798,7 +798,7 @@
 			"AllCaps"		"1"
 			"fgcolor"		"White"
 		}
-		
+
 		"AutoAddBotsCheckBox"
 		{
 			"ControlName"	"CheckButton"
@@ -819,8 +819,8 @@
 			"brighttext"	"0"
 			"AllCaps"		"1"
 			"disabledfgcolor2_override"	"White"
-		}	
-		
+		}
+
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"	"CheckButton"
@@ -842,7 +842,7 @@
 			"AllCaps"		"1"
 			"disabledfgcolor2_override"	"White"
 		}
-		
+
 		"AddBotButton"
 		{
 			"ControlName"	"CExButton"
@@ -865,20 +865,20 @@
 			"default"		"1"
 			"Command"		"bot_add"
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
-	
+
 		"BotSelectionComboBox"
 		{
 			"ControlName"		"ComboBox"
@@ -900,7 +900,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"AllCaps"			"1"
-			
+
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"BlackLightTransparent"
 			"disabledFgColor_override" "White"
@@ -909,7 +909,7 @@
 			"selectionTextColor_override" "White"
 			"defaultSelectionBG2Color_override" "Blank"
 		}
-		
+
 		"KickAllBotsButton"
 		{
 			"ControlName"	"CExButton"
@@ -932,21 +932,21 @@
 			"default"		"1"
 			"Command"		"bot_removeall"
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}
 	}
-	
+
 	"TestItemBotControls"
 	{
 		"fieldName"				"TestItemBotControls"
@@ -961,7 +961,7 @@
 		"paintborder"			"1"
 		"border"				"BlackTransparent70"
 	}
-	
+
 	"ExportButton"
 	{
 		"ControlName"	"CExButton"
@@ -984,16 +984,16 @@
 		"default"		"1"
 		"Command"		"export"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -1019,16 +1019,16 @@
 		"default"		"1"
 		"Command"		"import"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -1054,20 +1054,20 @@
 		"default"		"1"
 		"Command"		"importrecent"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -1090,16 +1090,16 @@
 		"default"		"1"
 		"Command"		"cancel"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -1125,16 +1125,16 @@
 		"default"		"1"
 		"Command"		"ok"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -1150,7 +1150,7 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		
+
 		"SteamWorkshopButtonSubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1176,23 +1176,23 @@
 			"labeltext"			"#MMenu_SteamWorkshop"
 
 			"AllCaps"		"1"
-		
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"image_armedcolor"	"White"
 			"image_drawcolor"	"White"
 			"image_selectedcolor"	"46 43 42 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1206,7 +1206,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_steamworkshop"
-			}		
+			}
 		}
 	}
 }

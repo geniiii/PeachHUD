@@ -14,7 +14,7 @@
 		"PaintBackgroundType"	"3"
 		"bgcolor_override"		"GreenLight"
 	}
-	
+
 	"Currency"
 	{
 		"ControlName"			"CExLabel"
@@ -28,10 +28,10 @@
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"center"	
+		"textAlignment"			"center"
 		"labelText"				"%currency%"
 	}
-	
+
 	"CurrencyShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -45,11 +45,11 @@
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"center"	
+		"textAlignment"			"center"
 		"labelText"				"%currency%"
 		"pin_to_sibling"		"Currency"
-	}	
-	
+	}
+
 	"WhiteBG"
 	{
 		"ControlName"			"EditablePanel"

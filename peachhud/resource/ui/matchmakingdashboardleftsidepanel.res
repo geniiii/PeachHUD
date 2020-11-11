@@ -35,7 +35,7 @@
 
 		"image"							"gradient_pure_black"
 	}
-	
+
 	"Gradient"
 	{
 		"ControlName"					"ImagePanel"
@@ -118,7 +118,7 @@
 
 		"armedFgColor_override"			"Orange"
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"					"EditablePanel"

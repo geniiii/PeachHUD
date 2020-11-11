@@ -14,7 +14,7 @@
 		"enabled"					"1"
 		"bgcolor_override"			"Blank"
 	}
-	
+
 	"Mountain"						//needed as a cover
 	{
 		"ControlName"				"ImagePanel"
@@ -29,7 +29,7 @@
 		"image"						"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"				"1"
 	}
-	
+
 	"WhiteBackground"
 	{
 		"ControlName"				"EditablePanel"
@@ -43,7 +43,7 @@
 		"enabled"					"1"
 		"border"					"BlackTransparent30"
 	}
-	
+
 	"StatData"
 	{
 		"ControlName"				"EditablePanel"
@@ -56,7 +56,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"InteractiveHeaders"
@@ -67,7 +67,7 @@
 			"tall"					"480"
 			"visible"				"1"
 			"enabled"				"1"
-			
+
 			"BarChartComboABG"
 			{
 				"ControlName"		"ImagePanel"
@@ -107,7 +107,7 @@
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"Blank"
 				"disabledFgColor_override" 			"White"
@@ -115,7 +115,7 @@
 				"selectionColor_override" 			"Blank"
 				"selectionTextColor_override" 		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
-				
+
 				"Button"
 				{
 					"defaultFgColor_override"		"White"
@@ -125,7 +125,7 @@
 					"paintbackgroundtype"			"2"
 				}
 			}
-			
+
 			"BarChartComboBBG"
 			{
 				"ControlName"		"ImagePanel"
@@ -144,7 +144,7 @@
 				"paintborder"		"1"
 				"border"			"BlueTransparent90"
 			}
-			
+
 			"BarChartComboB"
 			{
 				"ControlName"		"ComboBox"
@@ -165,7 +165,7 @@
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"Blank"
 				"disabledFgColor_override" 			"White"
@@ -173,7 +173,7 @@
 				"selectionColor_override" 			"Blank"
 				"selectionTextColor_override" 		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
-				
+
 				"Button"
 				{
 					"defaultFgColor_override"		"White"
@@ -183,7 +183,7 @@
 					"paintbackgroundtype"			"2"
 				}
 			}
-			
+
 			"ClassComboBG"
 			{
 				"ControlName"		"ImagePanel"
@@ -202,7 +202,7 @@
 				"paintborder"		"1"
 				"border"			"BlackTransparent90"
 			}
-			
+
 			"ClassCombo"
 			{
 				"ControlName"		"ComboBox"
@@ -222,7 +222,7 @@
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
 				"unicode"			"0"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"Blank"
 				"disabledFgColor_override" 			"White"
@@ -230,7 +230,7 @@
 				"selectionColor_override" 			"Blank"
 				"selectionTextColor_override" 		"White"
 				"defaultSelectionBG2Color_override"	"Blank"
-				
+
 				"Button"
 				{
 					"defaultFgColor_override"		"White"
@@ -241,7 +241,7 @@
 				}
 			}
 		}
-		
+
 		"AveragesBG"
 		{
 			"ControlName"			"EditablePanel"
@@ -254,11 +254,11 @@
 			"fieldName"				"AveragesLabel"
 			"xpos"					"9999"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 1///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel1"
 		{
 			"ControlName"			"Label"
@@ -309,7 +309,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"135 180 198 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -361,7 +361,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"135 180 198 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -382,11 +382,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 2///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel2"
 		{
 			"ControlName"			"Label"
@@ -406,7 +406,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG2A"
 		{
 			"ControlName"			"ImagePanel"
@@ -438,7 +438,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"120 160 176 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -459,7 +459,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG2B"
 		{
 			"ControlName"			"ImagePanel"
@@ -491,7 +491,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"120 160 176 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -512,11 +512,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 3///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel3"
 		{
 			"ControlName"			"Label"
@@ -536,7 +536,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG3A"
 		{
 			"ControlName"			"ImagePanel"
@@ -568,7 +568,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"105 140 154 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -589,7 +589,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG3B"
 		{
 			"ControlName"			"ImagePanel"
@@ -621,7 +621,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"105 140 154 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -642,11 +642,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 4///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel4"
 		{
 			"ControlName"			"Label"
@@ -666,7 +666,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG4A"
 		{
 			"ControlName"			"ImagePanel"
@@ -698,7 +698,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"90 120 132 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -719,7 +719,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG4B"
 		{
 			"ControlName"			"ImagePanel"
@@ -751,7 +751,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"90 120 132 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -772,11 +772,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 5///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel5"
 		{
 			"ControlName"			"Label"
@@ -796,7 +796,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG5A"
 		{
 			"ControlName"			"ImagePanel"
@@ -828,7 +828,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"75 100 110 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -849,7 +849,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG5B"
 		{
 			"ControlName"			"ImagePanel"
@@ -881,7 +881,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"75 100 110 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -902,11 +902,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 6///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel6"
 		{
 			"ControlName"			"Label"
@@ -926,7 +926,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG6A"
 		{
 			"ControlName"			"ImagePanel"
@@ -958,7 +958,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"60 80 88 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -979,7 +979,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG6B"
 		{
 			"ControlName"			"ImagePanel"
@@ -1011,7 +1011,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"60 80 88 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1032,11 +1032,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 7///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel7"
 		{
 			"ControlName"			"Label"
@@ -1056,7 +1056,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG7A"
 		{
 			"ControlName"			"ImagePanel"
@@ -1088,7 +1088,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"45 60 66 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1109,7 +1109,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG7B"
 		{
 			"ControlName"			"ImagePanel"
@@ -1141,7 +1141,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"45 60 66 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1162,11 +1162,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 8///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel8"
 		{
 			"ControlName"			"Label"
@@ -1186,7 +1186,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG8A"
 		{
 			"ControlName"			"ImagePanel"
@@ -1218,7 +1218,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"30 40 44 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1239,7 +1239,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG8B"
 		{
 			"ControlName"			"ImagePanel"
@@ -1271,7 +1271,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"30 40 44 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1292,11 +1292,11 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		///////////////////////////////////////////////////
 		///////////////////////BAR 9///////////////////////
 		///////////////////////////////////////////////////
-		
+
 		"ClassLabel9"
 		{
 			"ControlName"			"Label"
@@ -1316,7 +1316,7 @@
 			"AllCaps"				"1"
 			"border"				"BlackTransparent90"
 		}
-		
+
 		"ClassBarBG9A"
 		{
 			"ControlName"			"ImagePanel"
@@ -1348,7 +1348,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"15 20 22 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1369,7 +1369,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassBarBG9B"
 		{
 			"ControlName"			"ImagePanel"
@@ -1401,7 +1401,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"	
+			"tabPosition"			"0"
 			"fillcolor"				"15 20 22 230"
 			"PaintBackgroundType"	"0"
 		}
@@ -1422,9 +1422,9 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
-		
-		
+
+
+
 		"WhiteBackgroundStats"
 		{
 			"ControlName"			"EditablePanel"
@@ -1438,7 +1438,7 @@
 			"enabled"				"1"
 			"border"				"BlackTransparent30"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"			"EditablePanel"
@@ -1452,7 +1452,7 @@
 			"enabled"				"1"
 			"bgcolor_override"		"WhiteTransparent"
 		}
-		
+
 		"RecordsBG"
 		{
 			"ControlName"			"EditablePanel"
@@ -1477,7 +1477,7 @@
 			"fieldName"				"RecordsLabel"
 			"xpos"					"9999"
 		}
-		
+
 		"OverallRecord1Label"
 		{
 			"ControlName"			"Label"
@@ -1497,7 +1497,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord1Value"
 		{
 			"ControlName"			"Label"
@@ -1517,7 +1517,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord2Label"
 		{
 			"ControlName"			"Label"
@@ -1537,7 +1537,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord2Value"
 		{
 			"ControlName"			"Label"
@@ -1557,7 +1557,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord3Label"
 		{
 			"ControlName"			"Label"
@@ -1577,7 +1577,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord3Value"
 		{
 			"ControlName"			"Label"
@@ -1597,7 +1597,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord4Label"
 		{
 			"ControlName"			"Label"
@@ -1617,7 +1617,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord4Value"
 		{
 			"ControlName"			"Label"
@@ -1637,7 +1637,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord5Label"
 		{
 			"ControlName"			"Label"
@@ -1657,7 +1657,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord5Value"
 		{
 			"ControlName"			"Label"
@@ -1677,7 +1677,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord6Label"
 		{
 			"ControlName"			"Label"
@@ -1697,7 +1697,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord6Value"
 		{
 			"ControlName"			"Label"
@@ -1717,7 +1717,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord7Label"
 		{
 			"ControlName"			"Label"
@@ -1737,7 +1737,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord7Value"
 		{
 			"ControlName"			"Label"
@@ -1757,7 +1757,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord8Label"
 		{
 			"ControlName"			"Label"
@@ -1777,7 +1777,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord8Value"
 		{
 			"ControlName"			"Label"
@@ -1797,7 +1797,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord9Label"
 		{
 			"ControlName"			"Label"
@@ -1817,7 +1817,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord9Value"
 		{
 			"ControlName"			"Label"
@@ -1837,7 +1837,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord10Label"
 		{
 			"ControlName"			"Label"
@@ -1857,7 +1857,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord10Value"
 		{
 			"ControlName"			"Label"
@@ -1877,7 +1877,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord11Label"
 		{
 			"ControlName"			"Label"
@@ -1897,7 +1897,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord11Value"
 		{
 			"ControlName"			"Label"
@@ -1917,7 +1917,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord12Label"
 		{
 			"ControlName"			"Label"
@@ -1937,7 +1937,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord12Value"
 		{
 			"ControlName"			"Label"
@@ -1957,7 +1957,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord13Label"
 		{
 			"ControlName"			"Label"
@@ -1977,7 +1977,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord13Value"
 		{
 			"ControlName"			"Label"
@@ -1997,7 +1997,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord14Label"
 		{
 			"ControlName"			"Label"
@@ -2017,7 +2017,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord14Value"
 		{
 			"ControlName"			"Label"
@@ -2037,7 +2037,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord15Label"
 		{
 			"ControlName"			"Label"
@@ -2057,7 +2057,7 @@
 			"AllCaps"				"1"
 			"fgcolor_override"		"White"
 		}
-		
+
 		"OverallRecord15Value"
 		{
 			"ControlName"			"Label"
@@ -2078,7 +2078,7 @@
 			"fgcolor_override"		"White"
 		}
 	}
-	
+
 	"ResetStatsButton"
 	{
 		"ControlName"				"CExButton"
@@ -2099,8 +2099,8 @@
 		"visible"					"0"
 		"enabled"					"0"
 	}
-	
-	
+
+
 	"CloseButton"
 	{
 		"ControlName"				"Button"
@@ -2136,7 +2136,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"OnYourWayLabel"
 		"xpos"						"9999"
-	}					
+	}
 	"MapLabel"
 	{
 		"ControlName"				"CExLabel"

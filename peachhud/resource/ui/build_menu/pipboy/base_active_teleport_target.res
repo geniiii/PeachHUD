@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemBackground"
 		"xpos"					"-5"
@@ -15,7 +15,7 @@
 		"paintbackgroundtype"	"3"
 		"bgcolor_override"		"Black"
 	}
-	
+
 	"TeamColoredBar"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -34,16 +34,16 @@
 		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_White_70"
 		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Red_70"
 		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-		
+
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 12"
@@ -64,9 +64,9 @@
 		"brighttext"			"0"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
 		"font"					"Size 12"
@@ -87,20 +87,20 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"BuildingIcon"
 		"xpos"					"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ModeLabel"
 		"xpos"					"9999"
 	}
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"NumberBg"

@@ -25,9 +25,9 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"reloadscheme"
-		
+
 		"paintbackground"	"0"
-		
+
 		"border_default"	"BlueTransparent70"
 		"border_armed"		"OrangeTransparent70"
 	}

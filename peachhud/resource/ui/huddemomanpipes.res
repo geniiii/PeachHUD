@@ -23,7 +23,7 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
@@ -31,7 +31,7 @@
 		"ypos"					"r100"
 		"zpos"					"2"
 		"wide"					"80"
-		"tall"					"2"				
+		"tall"					"2"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -39,8 +39,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}		
-	
+	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -51,7 +51,7 @@
 		"wide"					"100"
 		"tall"					"100"
 		"visible"				"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"		"CExLabel"
@@ -80,7 +80,7 @@
 			"font"				"Size 18"
 			"fgcolor"			"White"
 		}
-		
+
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -103,18 +103,18 @@
 			"fgcolor"			"Shadows"
 		}
 	}
-	
+
 	"background"
 	{
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"background"
 		"xpos"					"9999"
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"NoPipesPresentPanel"
 		"xpos"					"9999"
-	}				
+	}
 }

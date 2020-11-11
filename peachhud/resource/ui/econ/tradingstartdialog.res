@@ -12,14 +12,14 @@
 		"bgcolor_override"					"BlackTransparent"
 		"paintbackgroundtype"				"0"
 		"settitlebarvisible"				""
-		
+
 		"button_kv"
 		{
 			"xpos"							"10"
 			"ypos"							"0"
 			"wide"							"220"
 			"tall"							"30"
-			
+
 			"button"
 			{
 				"xpos"						"0"
@@ -41,13 +41,13 @@
 				"default"					"1"
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground" 			"0"
-				
+
 				"border_default"			"BlueTransparent70"
 				"border_armed"				"OrangeTransparent70"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"				"CAvatarImagePanel"
@@ -60,12 +60,12 @@
 				"image"						""
 				"visible"					"1"
 				"enabled"					"1"
-				"scaleImage"				"1"	
+				"scaleImage"				"1"
 				"color_outline"				"Blank"
 			}
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"						"CExLabel"
@@ -85,7 +85,7 @@
 		"AllCaps"							"1"
 		"fgcolor_override" 					"BlueLight"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"						"ScrollableEditablePanel"
@@ -97,7 +97,7 @@
 		"PaintBackgroundType"				"0"
 		"fgcolor_override"					"White"
 		"bgcolor_override"					"BlackLightTransparent"
-		
+
 		"PlayerList"
 		{
 			"ControlName"					"EditablePanel"
@@ -121,7 +121,7 @@
 		"wide"	 							"220"
 		"tall"	 							"180"
 		"PaintBackgroundType"				"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"					"CExLabel"
@@ -163,20 +163,20 @@
 			"brighttext"					"0"
 			"default"						"1"
 			"Command"						"friends"
-			
+
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"0"
-		
+
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
-			
+
 			"border_default"				"BlueTransparent70"
 			"border_armed"					"OrangeTransparent70"
 		}
-		
+
 		"subbutton1"
 		{
 			"ControlName"					"CExButton"
@@ -201,17 +201,17 @@
 			"Command"						"server"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"0"
-		
+
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
-			
+
 			"border_default"				"BlueTransparent70"
 			"border_armed"					"OrangeTransparent70"
 		}
-		
+
 		"subbutton2"
 		{
 			"ControlName"					"CExButton"
@@ -237,18 +237,18 @@
 			"Command"						"profile"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"0"
-		
+
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
-			
+
 			"border_default"				"BlueTransparent70"
 			"border_armed"					"OrangeTransparent70"
 		}
 	}
-	
+
 	"StatePanel1"							//FRIENDLIST
 	{
 		"ControlName"						"EditablePanel"
@@ -260,7 +260,7 @@
 		"wide"	 							"220"
 		"tall"	 							"180"
 		"PaintBackgroundType"				"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"					"CExLabel"
@@ -277,8 +277,8 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"fgcolor" 						"White"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"					"CExLabel"
@@ -298,9 +298,9 @@
 			"wrap"							"1"
 			"centerwrap"					"1"
 			"fgcolor_override" 				"White"
-		}	
+		}
 	}
-	
+
 	"StatePanel2"							//CURRENT SERVER
 	{
 		"ControlName"						"EditablePanel"
@@ -312,7 +312,7 @@
 		"wide"	 							"220"
 		"tall"	 							"180"
 		"PaintBackgroundType"				"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"					"CExLabel"
@@ -330,8 +330,8 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"fgcolor"						"White"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"					"CExLabel"
@@ -351,9 +351,9 @@
 			"wrap"							"1"
 			"centerwrap"					"1"
 			"fgcolor" 						"White"
-		}	
+		}
 	}
-	
+
 	"StatePanel3"							//STEAM PROFILE
 	{
 		"ControlName"						"EditablePanel"
@@ -365,7 +365,7 @@
 		"wide"	 							"220"
 		"tall"	 							"180"
 		"PaintBackgroundType"				"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"					"CExLabel"
@@ -383,8 +383,8 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"fgcolor" 						"White"
-		}	
-		
+		}
+
 		"URLHelpLabel"
 		{
 			"ControlName"					"Label"
@@ -404,8 +404,8 @@
 			"wrap"							"1"
 			"centerwrap"					"1"
 			"fgcolor_override" 				"White"
-		}	
-		
+		}
+
 		"URLFailLabel"
 		{
 			"ControlName"					"Label"
@@ -426,7 +426,7 @@
 			"centerwrap"					"1"
 			"fgcolor_override" 				"RedLight"
 		}
-		
+
 		"URLSearchingLabel"
 		{
 			"ControlName"	 				"Label"
@@ -447,7 +447,7 @@
 			"centerwrap"	 				"1"
 			"fgcolor_override" 				"BlueLight"
 		}
-		
+
 		"URLEntry"
 		{
 			"ControlName"					"TextEntry"
@@ -474,7 +474,7 @@
 			"font"							"Size 12"
 			"textAlignment"					"west"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"					"CExButton"
@@ -499,18 +499,18 @@
 			"Command"						"url_ok"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"0"
-		
+
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
-			
+
 			"border_default"				"BlueTransparent70"
 			"border_armed"					"OrangeTransparent70"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"						"CExButton"
@@ -535,13 +535,13 @@
 		"Command"							"cancel"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"					"0"
-		
+
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
 		"depressedFgColor_override"			"White"
-			
+
 		"border_default"					"BlueTransparent70"
 		"border_armed"						"OrangeTransparent70"
 	}

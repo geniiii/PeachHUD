@@ -19,7 +19,7 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"BlackTransparent"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -39,7 +39,7 @@
 		"AllCaps"					"1"
 		"fgcolor_override" 			"BlueLight"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -102,19 +102,19 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"proportionaltoparent"		"1"
-		
+
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "White"
-	}			
+	}
 }

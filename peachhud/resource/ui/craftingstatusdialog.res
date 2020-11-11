@@ -13,9 +13,9 @@
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 	}
-	
+
 	"CenterPositioner"
-	{	
+	{
 		"ControlName"			"Label"
 		"fieldName"				"CenterPositioner"
 		"font"					"Size 15"
@@ -34,7 +34,7 @@
 		"textAlignment"			"center"
 		"bgcolor_override" 		"Blank"
 	}
-	
+
 	"RecipeItemModelPanel"
 	{
 		"ControlName"			"CItemModelPanel"
@@ -43,7 +43,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
 		"font"					"Size 18"
@@ -64,14 +64,14 @@
 		"fgcolor_override" 		"BlueLight"
 		"bgcolor_override" 		"Blank"
 		"auto_wide_tocontents" 	"1"
-		
+
 		"pin_to_sibling"		"CenterPositioner"
-        "pin_corner_to_sibling"	"4"          
-        "pin_to_sibling_corner"	"4"          	
+        "pin_corner_to_sibling"	"4"
+        "pin_to_sibling_corner"	"4"
 	}
-	
+
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"			"Label"
 		"fieldName"				"EllipsesLabel"
 		"font"					"Size 16"
@@ -88,12 +88,12 @@
 		"textAlignment"			"west"
 		"fgcolor_override" 		"BlueLight"
 		"bgcolor_override" 		"Blank"
-		
+
 		"pin_to_sibling"		"TitleLabel"
-        "pin_corner_to_sibling"	"0"          
-        "pin_to_sibling_corner"	"1"          	
+        "pin_corner_to_sibling"	"0"
+        "pin_to_sibling_corner"	"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"			"CExButton"
@@ -117,9 +117,9 @@
 		"Command"				"close"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground" 		"0"
-		
+
 		"border_default"		"BlueTransparent70"
 		"border_armed"			"OrangeTransparent70"
 	}

@@ -1,5 +1,5 @@
 "Resource/UI/SteamFriendPanel.res"
-{	
+{
 	"avatar"
 	{
 		"fieldName"					"avatar"
@@ -28,7 +28,7 @@
 		"stay_armed_on_click"		"1"
 		"roundedcorners"			"0"
 		"paintbackground"			"1"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -38,7 +38,7 @@
 		"border_default"			"Blank"
 		"border_armed"				"FriendHighlightBorderThick"
 	}
-	
+
 	"NameBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -74,7 +74,7 @@
 		"fgcolor_override"			"White"
 		"mouseinputenabled"			"0"
 	}
-	
+
 	"StatusLabel"
 	{
 		"fieldName"					"StatusLabel"

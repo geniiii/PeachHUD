@@ -1,5 +1,5 @@
 "Resource/UI/VoteHud.res"
-{	
+{
 	"VotePassed"
 	{
 		"ControlName"	"EditablePanel"
@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"BlackTransparent70"
-		
+
 		"PassedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -25,7 +25,7 @@
 			"scaleImage"	"1"
 			"image"			"hud/vote_yes"
 		}
-		
+
 		"PassedTitle"
 		{
 			"ControlName"	"Label"
@@ -45,7 +45,7 @@
 			"AllCaps"			"1"
 			"fgcolor_override"	"BlueLight"
 		}
-		
+
 		"PassedResult"
 		{
 			"ControlName"	"Label"
@@ -65,9 +65,9 @@
 			"AllCaps"			"1"
 			"fgcolor_override"	"White"
 			"noshortcutsyntax" "1"
-		}		
+		}
 	}
-	
+
 	"VoteActive"
 	{
 		"ControlName"	"EditablePanel"
@@ -79,7 +79,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"BlackTransparent70"
-		
+
 		"Header"
 		{
 			"ControlName"	"Label"
@@ -99,7 +99,7 @@
 			"AllCaps"			"1"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Issue"
 		{
 			"ControlName"	"Label"
@@ -132,10 +132,10 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
-		
+
 		// divider
 		"Divider"
 		{
@@ -148,9 +148,9 @@
 			"fillcolor"		"White"
 			"zpos"			"0"
 		}
-		
+
 		// Temp UI
-		
+
 		"LabelOption1"
 		{
 			"ControlName"	"Label"
@@ -170,7 +170,7 @@
 			"font"			"Size 8"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option1Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -183,7 +183,7 @@
 			"fillcolor"		"BlackLightTransparent"
 			"visible"		"1"
 		}
-		
+
 		"Option1CountLabel"
 		{
 			"ControlName"	"Label"
@@ -203,7 +203,7 @@
 			"font"			"Size 10"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"LabelOption2"
 		{
 			"ControlName"	"Label"
@@ -223,7 +223,7 @@
 			"font"			"Size 8"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option2Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -236,7 +236,7 @@
 			"fillcolor"		"BlackLightTransparent"
 			"visible"		"1"
 		}
-		
+
 		"Option2CountLabel"
 		{
 			"ControlName"	"Label"
@@ -256,7 +256,7 @@
 			"font"			"Size 10"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"LabelOption3"
 		{
 			"ControlName"	"Label"
@@ -276,7 +276,7 @@
 			"font"			"Size 8"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option3Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -289,7 +289,7 @@
 			"fillcolor"		"BlackLightTransparent"
 			"visible"		"0"
 		}
-		
+
 		"LabelOption4"
 		{
 			"ControlName"	"Label"
@@ -309,7 +309,7 @@
 			"font"			"Size 8"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option4Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -322,7 +322,7 @@
 			"fillcolor"		"BlackLightTransparent"
 			"visible"		"0"
 		}
-		
+
 		"LabelOption5"
 		{
 			"ControlName"	"Label"
@@ -342,7 +342,7 @@
 			"font"			"Size 8"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option5Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -355,7 +355,7 @@
 			"fillcolor"		"BlackLightTransparent"
 			"visible"		"0"
 		}
-		
+
 		// divider
 		"Divider2"
 		{
@@ -368,7 +368,7 @@
 			"fillcolor"		"White"
 			"zpos"			"0"
 		}
-		
+
 		"VoteCountLabel"
 		{
 			"ControlName"	"Label"
@@ -387,7 +387,7 @@
 			"font"			"Size 8"
 			"fgcolor_override"	"White"
 		}
-		
+
 		// vote bar
 		"VoteBar"
 		{
@@ -399,15 +399,15 @@
 			"tall"			"18"
 			"zpos"			"2"
 			"visible"		"1"
-			"enabled"		"1"			
+			"enabled"		"1"
 			"box_size"		"16"
 			"spacer"		"6"
 			"box_inset"		"1"
 			"yes_texture"	"vgui/hud/vote_yes"
-			"no_texture"	"vgui/hud/vote_no"			
-		}			
+			"no_texture"	"vgui/hud/vote_no"
+		}
 	}
-	
+
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
@@ -420,7 +420,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"BlackTransparent70"
-				
+
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -434,7 +434,7 @@
 			"scaleImage"	"1"
 			"image"			"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"	"Label"
@@ -454,7 +454,7 @@
 			"AllCaps"			"1"
 			"fgcolor_override"	"RedLight"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"	"Label"
@@ -473,9 +473,9 @@
 			"wrap"			"1"
 			"AllCaps"			"1"
 			"fgcolor_override"	"White"
-		}		
+		}
 	}
-	
+
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
@@ -488,7 +488,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"BlackTransparent70"
-		
+
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -502,7 +502,7 @@
 			"scaleImage"	"1"
 			"image"			"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"	"Label"
@@ -522,7 +522,7 @@
 			"AllCaps"			"1"
 			"fgcolor_override"	"RedLight"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"	"Label"
@@ -541,9 +541,9 @@
 			"wrap"			"1"
 			"AllCaps"			"1"
 			"fgcolor_override"	"White"
-		}		
+		}
 	}
-	
+
 	"VoteSetupDialog"
 	{
 		"ControlName"		"CVoteSetupDialog"
@@ -566,11 +566,11 @@
 		"header_font"		"Size 12"
 		"header_fgcolor"	"BlueLight"
 
-		"issue_width"		"180"		
+		"issue_width"		"180"
 		"issue_font"		"Size 8"
 		"issue_fgcolor"		"White"
 		"issue_fgcolor_disabled"	"WhiteDark"
-		
+
 		"parameter_width"	"200"
 
 		"TitleLabel"
@@ -592,7 +592,7 @@
 			"AllCaps"		"1"
 			"fgcolor"		"BlueLight"
 		}
-		
+
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
@@ -607,10 +607,10 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"0"
-			
+
 			"linespacing"	"16"
 		}
-		
+
 		"VoteParameterList"
 		{
 			"ControlName"		"SectionedListPanel"
@@ -667,7 +667,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"BlackLightTransparent"
 			"bgcolor_override"	"White"
 			"disabledFgColor_override" "BlackLightTransparent"
@@ -676,7 +676,7 @@
 			"selectionTextColor_override" "BlackLightTransparent"
 			"defaultSelectionBG2Color_override" "White"
 		}
-		
+
 		"CallVoteButton"
 		{
 			"ControlName"		"Button"
@@ -698,20 +698,20 @@
 			"Command"		"CallVote"
 			"Default"		"0"
 			"font"			"Size 15"
-			
+
 			"AllCaps"					"1"
-		
+
 			"paintbackground"			"0"
 			"paintborder"				"0"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 		}
-		
+
 		"CallVoteButtonBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -727,7 +727,7 @@
 			"enabled"		"0"
 			"border"		"BlueTransparent70"
 		}
-		
+
 		"Button1"
 		{
 			"ControlName"	"Button"
@@ -749,20 +749,20 @@
 			"Command"		"Close"
 			"Default"		"0"
 			"font"			"Size 15"
-			
+
 			"AllCaps"					"1"
-		
+
 			"paintbackground"			"0"
 			"paintborder"				"0"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override" "White"
 		}
-		
+
 		"Button1BG"
 		{
 			"ControlName"	"EditablePanel"

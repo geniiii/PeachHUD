@@ -41,7 +41,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 	}
-	
+
 	"TeamSelectFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -54,10 +54,10 @@
 		"visible"							"0"
 		"enabled"							"0"
 		"border"							"GrayBlueBorder"
-		
+
 		"pin_to_sibling" 					"TeamsAnchor"
 	}
-	
+
 	"MapNameFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -70,12 +70,12 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"Blank"
-		
+
 		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"mapname"
 	{
 		"ControlName"						"Label"
@@ -96,10 +96,10 @@
 		"brighttext"						"1"
 		"font"								"Size 24"
 		"fgcolor_override"					"White"
-		
+
 		"pin_to_sibling" 					"MapNameFrame"
 	}
-	
+
 	"Spec-AutoFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -112,12 +112,12 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"WhiteTransparent50"
-		
+
 		"pin_to_sibling" 					"MapNameFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"BlueFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -130,12 +130,12 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"BlueTransparent50"
-		
+
 		"pin_to_sibling" 					"Spec-AutoFrame"
 		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
-	
+
 	"RedFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -148,12 +148,12 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"RedTransparent50"
-		
+
 		"pin_to_sibling" 					"Spec-AutoFrame"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
-	
+
 	"SeparationLineCenter"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -166,12 +166,12 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"bgcolor_override"					"White"
-		
+
 		"pin_to_sibling" 					"Spec-AutoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"SpectateLabel"
 	{
 		"ControlName"	  					"CExLabel"
@@ -188,12 +188,12 @@
 		"textAlignment"  					"center"
 		"font"			  					"Size 18"
 		"fgcolor"		  					"White"
-		
+
 		"pin_to_sibling" 					"Spec-AutoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"RandomLabel"
 	{
 		"ControlName"	  					"CExLabel"
@@ -210,12 +210,12 @@
 		"textAlignment"  					"center"
 		"font"			  					"Size 18"
 		"fgcolor"		  					"White"
-		
+
 		"pin_to_sibling" 					"Spec-AutoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"BlueLabel"
 	{
 		"ControlName"	  					"CExLabel"
@@ -234,12 +234,12 @@
 		"textAlignment"	  					"center"
 		"font"			  					"Size 32"
 		"fgcolor"		  					"White"
-		
+
 		"pin_to_sibling" 					"BlueFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"BlueCount"
 	{
 		"ControlName"	  					"CExLabel"
@@ -257,12 +257,12 @@
 		"textAlignment"	  					"center"
 		"font"			  					"Size 40"
 		"fgcolor"		  					"White"
-		
+
 		"pin_to_sibling" 					"BlueFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"Red"
 	{
 		"ControlName"	  					"CExLabel"
@@ -281,12 +281,12 @@
 		"textAlignment"	  					"center"
 		"font"			  					"Size 32"
 		"fgcolor"		  					"White"
-		
+
 		"pin_to_sibling" 					"RedFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
-	}	
-	
+	}
+
 	"RedCount"
 	{
 		"ControlName"	  					"CExLabel"
@@ -302,12 +302,12 @@
 		"textAlignment"	  					"center"
 		"font"			  					"Size 40"
 		"fgcolor"		  					"White"
-		
+
 		"pin_to_sibling" 					"RedFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"teambutton0"							//TEAMBLUE
 	{
 		"ControlName"	  					"CTFTeamButton"
@@ -332,12 +332,12 @@
 		"hover"				  				"2.0"
 		"font"			  					""
 		"fgcolor"		  					"Blank"
-		
+
 		"pin_to_sibling" 					"BlueFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"teambutton1"							//TEAMRED
 	{
 		"ControlName"	  					"CTFTeamButton"
@@ -359,16 +359,16 @@
 		"paintborder"	  					"0"
 		"command"		  					"jointeam red"
 		"team"				  				"2"
-		"associated_model"	  				"reddoor"	
+		"associated_model"	  				"reddoor"
 		"hover"				  				"2.0"
 		"font"			  					""
 		"fgcolor"		  					"Blank"
-		
+
 		"pin_to_sibling" 					"RedFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"teambutton2"							//TEAMRANDOM
 	{
 		"ControlName"	  					"CTFTeamButton"
@@ -392,12 +392,12 @@
 		"associated_model"	  				"autodoor"
 		"font"			  					""
 		"fgcolor"		  					"Blank"
-		
+
 		"pin_to_sibling" 					"RandomLabel"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"teambutton3"							//TEAMSPEC
 	{
 		"ControlName"	  					"CTFTeamButton"
@@ -418,27 +418,27 @@
 		"brighttext"	  					"0"
 		"paintborder"	  					"0"
 		"command"		  					"jointeam spectate"
-		"associated_model"	  				"spectate"	
+		"associated_model"	  				"spectate"
 		"font"			  					""
 		"fgcolor"		  					"Blank"
-		
+
 		"pin_to_sibling" 					"SpectateLabel"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
-	}	
+	}
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-	}	
+	}
 	"Footer"
 	{
 		"ControlName"	"CTFFooter"

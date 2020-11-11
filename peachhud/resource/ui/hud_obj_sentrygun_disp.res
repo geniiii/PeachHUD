@@ -14,14 +14,14 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"Background"
 		"xpos"					"9999"
 	}
-	
+
 	"WhiteGradient"
 	{
 		"ControlName"			"EditablePanel"
@@ -37,7 +37,7 @@
 		"paintbackgroundtype"	"3"
 		"bgcolor_override"		"BlackTransparent"
 	}
-	
+
 	"Icon_Dispenser"
 	{
 		"ControlName"			"CIconPanel"
@@ -48,12 +48,12 @@
 		"tall"					"28"
 		"visible"				"1"
 		"enabled"				"1"
-		"scaleImage"			"1"	
+		"scaleImage"			"1"
 		"icon"					"obj_status_sentrygun_1"
 		"iconColor"				"White"
 		"pin_to_sibling"		"WhiteGradient"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -88,7 +88,7 @@
 			"alpha"				"200"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -111,25 +111,25 @@
 			"tall"				"8"
 			"visible"			"0"
 			"enabled"			"1"
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"icon"				"obj_status_upgrade_1"
 			"iconColor"			"GreenLight"
 		}
-	
+
 		"AlertTray"
 		{
 			"ControlName"		"CBuildingStatusAlertTray"
 			"fieldName"			"AlertTray"
 			"xpos"				"9999"
 		}
-		
+
 		"WrenchIcon"
 		{
 			"ControlName"		"CIconPanel"
 			"fieldName"			"WrenchIcon"
 			"xpos"				"9999"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"		"CIconPanel"
@@ -141,7 +141,7 @@
 			"tall"				"25"
 			"visible"			"0"
 			"enabled"			"1"
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"icon"				"obj_status_icon_sapper"
 			"iconColor"			"RedLight"
 			"paintbackground"	"1"
@@ -150,7 +150,7 @@
 		}
 
 		"Health"
-		{	
+		{
 			"ControlName"		"CBuildingHealthBar"
 			"fieldName"			"Health"
 			"font"				"Default"
@@ -197,16 +197,16 @@
 				"brighttext"	"0"
 				"fgcolor"		"White"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"15"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -216,7 +216,7 @@
 				"brighttext"	"0"
 			}
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"		"EditablePanel"
@@ -226,8 +226,8 @@
 			"wide"				"100"
 			"tall"				"29"
 			"visible"			"0"
-			
-			"KillIcon"	
+
+			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
@@ -242,9 +242,9 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"White"
 			}
-			
+
 			"KillsLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
 				"font"			"Size 10"
@@ -262,8 +262,8 @@
 				"brighttext"	"0"
 				"fgcolor"		"White"
 			}
-			
-			"ShellIcon"	
+
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
@@ -278,9 +278,9 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"White"
 			}
-			
+
 			"Shells"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"

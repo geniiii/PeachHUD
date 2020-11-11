@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"				"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"			"1"
 		"robot_x_step"				"19"
 		"robot_y_step"				"0"
-		
+
 
 		"color_blue"				"150 200 220 255"
 		"color_red"					"245 70 70 255"
@@ -42,8 +42,8 @@
 			"AutoResize" 			"1"
 			"skip_autoresize" 		"1"
 		}
-	}	
-	
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"				"CExLabel"
@@ -63,8 +63,8 @@
 		"AllCaps"					"1"
 		"alpha"						"125"
 		"fgcolor"					"White"
-	}	
-	
+	}
+
 	"PlayingToBG"
 	{
 		"ControlName"				"CTFImagePanel"
@@ -84,7 +84,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"bgcolor_override"			"Blank"
-	
+
 		"CarriedImage"
 		{
 			"ControlName"			"ImagePanel"
@@ -99,7 +99,7 @@
 			"image"					"../hud/obj_rd_powersupply_outline"
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
-		}	
+		}
 
 		"CarriedProgressBar"
 		{
@@ -135,12 +135,12 @@
 			"tall"					"35"
 			"visible"				"1"
 			"enabled"				"1"
-			"textAlignment"			"center"	
+			"textAlignment"			"center"
 			"labelText"				"%flagvalue%"
 			"font"					"Size 24"
-			"fgcolor"				"White"	
-			"proportionalToParent"	"1"	
-		}	
+			"fgcolor"				"White"
+			"proportionalToParent"	"1"
+		}
 
 		"FlagValueShadow"
 		{
@@ -153,14 +153,14 @@
 			"tall"					"35"
 			"visible"				"1"
 			"enabled"				"1"
-			"textAlignment"			"center"	
+			"textAlignment"			"center"
 			"labelText"				"%flagvalue%"
 			"font"					"Size 24"
-			"fgcolor"				"Black"	
-			"proportionalToParent"	"1"	
+			"fgcolor"				"Black"
+			"proportionalToParent"	"1"
 		}
 	}
-	
+
 	"WhiteBackground"
 	{
 		"ControlName"				"EditablePanel"
@@ -209,7 +209,7 @@
 			"PaintBackground"			"0"
 			"PaintBorder"				"0"
 			"proportionalToParent"		"1"
-			
+
 			"WhiteBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -223,7 +223,7 @@
 				"enabled"				"1"
 				"border"				"BlackTransparent70"
 			}
-			
+
 			"BlueBar"
 			{
 				"ControlName"			"EditablePanel"
@@ -237,7 +237,7 @@
 				"enabled"				"1"
 				"border"				"BlueTransparent70"
 			}
-			
+
 			"Score"
 			{
 				"ControlName"			"CExLabel"
@@ -255,7 +255,7 @@
 				"font"					"Size 22"
 				"fgcolor"				"WhiteTransparent"
 			}
-			
+
 			"ScoreShadow"
 			{
 				"ControlName"			"CExLabel"
@@ -292,7 +292,7 @@
 				"enabled"				"1"
 				"border"				"BlackTransparent70"
 			}
-			
+
 			"RedBar"
 			{
 				"ControlName"			"EditablePanel"
@@ -306,7 +306,7 @@
 				"enabled"				"1"
 				"border"				"RedTransparent70"
 			}
-			
+
 			"Score"
 			{
 				"ControlName"			"CExLabel"
@@ -324,7 +324,7 @@
 				"font"					"Size 22"
 				"fgcolor"				"WhiteTransparent"
 			}
-		
+
 			"ScoreShadow"
 			{
 				"ControlName"		"CExLabel"
@@ -361,7 +361,7 @@
 				"image"			"../HUD/obj_thief_red"
 				"scaleImage"	"1"
 				"proportionalToParent"	"1"
-			}	
+			}
 
 			"DroppedIntelContainer"
 			{
@@ -375,7 +375,7 @@
 				"visible"			"1"
 				"enabled"			"1"
 				"bgcolor_override"		"Blank"
-				
+
 				"proportionalToParent"	"1"
 
 				"DroppedIntelImage"
@@ -406,10 +406,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
 				"font"			"Size 16"
-				"fgcolor"		"White"		
+				"fgcolor"		"White"
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
 			}
@@ -425,9 +425,9 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
-				"font"			"Size 16"	
+				"font"			"Size 16"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -461,7 +461,7 @@
 				"image"			"../HUD/obj_thief_blue"
 				"scaleImage"	"1"
 				"proportionalToParent"	"1"
-			}	
+			}
 
 			"DroppedIntelContainer"
 			{
@@ -475,7 +475,7 @@
 				"visible"			"1"
 				"enabled"			"1"
 				"bgcolor_override"		"Blank"
-				
+
 				"proportionalToParent"	"1"
 
 				"DroppedIntelImage"
@@ -506,10 +506,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
 				"font"			"Size 16"
-				"fgcolor"		"White"		
+				"fgcolor"		"White"
 				"bgcolor_override"		"Blank"
 				"proportionalToParent"	"1"
 			}
@@ -525,10 +525,10 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"center"	
+				"textAlignment"	"center"
 				"labelText"		"%intelvalue%"
-				"font"			"Size 16"	
-				"fgcolor"		"Black"	
+				"font"			"Size 16"
+				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
 		}

@@ -5,19 +5,19 @@
 	"ItemBackground"
 	{
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"				"g"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"labelText"				"1"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"				"7"
 	}
 }

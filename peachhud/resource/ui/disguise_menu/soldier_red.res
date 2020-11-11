@@ -5,19 +5,19 @@
 	"ItemBackground"
 	{
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"				"b"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"labelText"				"2"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"				"2"
 		"pin_to_sibling"		"ItemNameLabel"
 	}

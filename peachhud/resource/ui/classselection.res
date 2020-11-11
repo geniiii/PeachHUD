@@ -14,7 +14,7 @@
 		"enabled"							"1"
 		"tabPosition"						"0"
 	}
-	
+
 	"ClassMenuAnchor"						//Moves the class selection menu as a whole
 	{
 		"ControlName"						"EditablePanel"
@@ -26,7 +26,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 	}
-	
+
 	"ClassSelectFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -40,7 +40,7 @@
 		"enabled"							"1"
 		"border"							"BlackTransparent70"
 	}
-	
+
 	"SelectAClassFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -53,12 +53,12 @@
 		"visible"							"0"
 		"enabled"							"0"
 		"border"							"BlueTransparent70"
-		
+
 		"pin_to_sibling" 					"ClassSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"SelectAClass"
 	{
 		"ControlName"						"Label"
@@ -79,10 +79,10 @@
 		"brighttext"						"1"
 		"font"								"Size 14"
 		"fgcolor_override"					"White"
-		
+
 		"pin_to_sibling" 					"SelectAClassFrame"
 	}
-	
+
 	"scout"									//Moves all the class icons
 	{
 		"ControlName"						"CExImageButton"
@@ -104,31 +104,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"soldier"
 		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
-	
+
 	"soldier"
 	{
 		"ControlName"						"CExImageButton"
@@ -150,31 +150,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"pyro"
 		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
-	
+
 	"pyro"
 	{
 		"ControlName"						"CExImageButton"
@@ -196,31 +196,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"demoman"
 		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
-	
+
 	"demoman"
 	{
 		"ControlName"						"CExImageButton"
@@ -242,31 +242,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"heavyweapons"
 		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
-	}	
-	
+	}
+
 	"heavyweapons"
 	{
 		"ControlName"						"CExImageButton"
@@ -288,31 +288,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"ClassMenuAnchor"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"engineer"
 	{
 		"ControlName"						"CExImageButton"
@@ -334,31 +334,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"heavyweapons"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
-	
+
 	"medic"
 	{
 		"ControlName"						"CExImageButton"
@@ -380,31 +380,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"engineer"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
-	
+
 	"sniper"
 	{
 		"ControlName"						"CExImageButton"
@@ -426,31 +426,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"medic"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
-	
+
 	"spy"
 	{
 		"ControlName"						"CExImageButton"
@@ -472,31 +472,31 @@
 		"Default"							"0"
 		"font"								"Class Symbols 40"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
-		
+
 		"pin_to_sibling" 					"sniper"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
-	
+
 	"random"
 	{
 		"ControlName"						"CExImageButton"
@@ -518,28 +518,28 @@
 		"Default"							"0"
 		"font"								"Size 15"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_armed"						"OrangeTransparent30"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 	}
-	
+
 	"EditLoadoutButton"
 	{
 		"ControlName"						"CExButton"
@@ -561,28 +561,28 @@
 		"Default"							"0"
 		"font"								"Size 15"
 		"scaleImage"						"1"
-		
+
 		"image_default"						""
 		"image_armed"						""
-		
+
 		"paintbackground"					"0"
-		
+
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
-		
+
 		"border_default"					"Blank"
 		"border_armed"						"OrangeTransparent30"
 		"border_Selected"					"OrangeTransparent30"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"sound_armed"						"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"				"1"
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 	}
-	
+
 	"numScout"
 	{
 		"ControlName"						"CExLabel"
@@ -601,12 +601,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"scout"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numSoldier"
 	{
 		"ControlName"						"CExLabel"
@@ -625,12 +625,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"soldier"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numPyro"
 	{
 		"ControlName"						"CExLabel"
@@ -649,12 +649,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"pyro"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numDemoman"
 	{
 		"ControlName"						"CExLabel"
@@ -673,12 +673,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"demoman"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numHeavy"
 	{
 		"ControlName"						"CExLabel"
@@ -697,12 +697,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"heavyweapons"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numEngineer"
 	{
 		"ControlName"						"CExLabel"
@@ -721,12 +721,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"Engineer"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numMedic"
 	{
 		"ControlName"						"CExLabel"
@@ -745,12 +745,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"Medic"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numSniper"
 	{
 		"ControlName"						"CExLabel"
@@ -769,12 +769,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"Sniper"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"numSpy"
 	{
 		"ControlName"						"CExLabel"
@@ -793,12 +793,12 @@
 		"textAlignment"						"center"
 		"font"								"Size 16"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"Spy"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"RandomSelectNumber"
 	{
 		"ControlName"						"CExButton"
@@ -808,7 +808,7 @@
 		"Command"							"select 12"
 		"visible"							"1"
 	}
-	
+
 	"EditaLoadoutSelectNumber"
 	{
 		"ControlName"						"CExButton"
@@ -823,18 +823,18 @@
 	{
 		"ControlName"						"CTFPlayerModelPanel"
 		"fieldName"							"TFPlayerModel"
-		
+
 		"xpos"								"90"
 		"ypos"								"190"
 		"zpos"								"6"
 		"wide"								"180"
 		"tall"								"280"
-		
+
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		
+
 		"render_texture"					"0"
 		"fov"								"16"
 		"allow_rot"							"0"
@@ -842,9 +842,9 @@
 		"paintbackground"					"1"
 		"paintbackgroundenabled" 			"1"
 		"bgcolor_override" 					"Blank"
-		
+
 		"pin_to_sibling" 					"ClassMenuAnchor"
-		
+
 		"model"
 		{
 			"force_pos"						"1"
@@ -859,10 +859,10 @@
 			"frame_origin_y"				"0"
 			"frame_origin_z"				"0"
 			"spotlight" 					"1"
-		
+
 			"modelname"						""
 			"vcd"							"class_select.vcd"
-			
+
 			"animation"
 			{
 				"name"						"PRIMARY"
@@ -893,19 +893,19 @@
 			{
 				"name"						"ITEM1"
 				"activity"					"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"						"ITEM2"
 				"activity"					"ACT_MP_STAND_ITEM2"
-			}	
+			}
 			"animation"
 			{
 				"name"						"MELEE_ALLCLASS"
 				"activity"					"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
+			}
 		}
-		
+
 		"customclassdata"
 		{
 			"undefined"
@@ -1010,7 +1010,7 @@
 			}
 		}
 	}
-	
+
 	"MvMUpgradeImageScout"
 	{
 		"ControlName"						"ImagePanel"
@@ -1025,7 +1025,7 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
+
 	"MvMUpgradeImageSolider"
 	{
 		"ControlName"						"ImagePanel"
@@ -1040,11 +1040,11 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
-	"MvMUpgradeImagePyro" 
+
+	"MvMUpgradeImagePyro"
 	{
 		"ControlName"						"ImagePanel"
-		"fieldName"							"MvMUpgradeImagePyro" 
+		"fieldName"							"MvMUpgradeImagePyro"
 		"xpos"								"c-170"
 		"ypos"								"30"
 		"zpos"								"10"
@@ -1055,11 +1055,11 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
-	"MvMUpgradeImageDemoman" 
+
+	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"						"ImagePanel"
-		"fieldName"							"MvMUpgradeImageDemoman" 
+		"fieldName"							"MvMUpgradeImageDemoman"
 		"xpos"								"c-80"
 		"ypos"								"30"
 		"zpos"								"10"
@@ -1070,11 +1070,11 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
+
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"						"ImagePanel"
-		"fieldName"							"MvMUpgradeImageHeavy" 
+		"fieldName"							"MvMUpgradeImageHeavy"
 		"xpos"								"c-30"
 		"ypos"								"30"
 		"zpos"								"10"
@@ -1085,7 +1085,7 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
+
 	"MvMUpgradeImageEngineer"
 	{
 		"ControlName"						"ImagePanel"
@@ -1100,7 +1100,7 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
+
 	"MvMUpgradeImageMedic"
 	{
 		"ControlName"						"ImagePanel"
@@ -1115,7 +1115,7 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
+
 	"MvMUpgradeImageSniper"
 	{
 		"ControlName"						"ImagePanel"
@@ -1130,7 +1130,7 @@
 		"image"								"mvm/class_upgraded"
 		"scaleImage"						"1"
 	}
-	
+
 	"MvMUpgradeImageSpy"
 	{
 		"ControlName"						"ImagePanel"
@@ -1146,7 +1146,7 @@
 		"scaleImage"						"1"
 	}
 
-	
+
 	"Offense"
 	{
 		"ControlName"						"CExLabel"
@@ -1184,7 +1184,7 @@
 		"xpos"								"9999"
 	}
 	"Hint"
-	{	
+	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"Hint"
 		"xpos"								"9999"
@@ -1218,7 +1218,7 @@
 		"ControlName"						"CTFImagePanel"
 		"fieldName"							"countImage0"
 		"xpos"								"9999"
-	}							
+	}
 	"countImage1"
 	{
 		"ControlName"						"CTFImagePanel"

@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSpendPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -14,7 +14,7 @@
 		"AllCaps"					"1"
 		"fgcolor"					"White"
 	}
-	
+
 	"TableBackground"
 	{
 		"ControlName"				"EditablePanel"
@@ -27,7 +27,7 @@
 		"visible"					"1"
 		"bgcolor_override"			"BlackLightTransparent"
 	}
-	
+
 	"UpgradesLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -42,7 +42,7 @@
 		"fgcolor"					"White"
 		"AllCaps"					"1"
 	}
-	
+
 	"UpgradesCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -56,12 +56,12 @@
 		"tall"						"10"
 		"fgcolor"					"White"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling"			"UpgradesLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -75,12 +75,12 @@
 		"tall"						"10"
 		"fgcolor"					"White"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling"			"UpgradesLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"BuyBackCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -94,12 +94,12 @@
 		"tall"						"10"
 		"fgcolor"					"White"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling"			"BuyBackLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-	
+
 	"BottleLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -113,12 +113,12 @@
 		"tall"						"10"
 		"fgcolor"					"White"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling"			"BuyBackLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"BottleCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -132,7 +132,7 @@
 		"tall"						"10"
 		"fgcolor"					"White"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling"			"BottleLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"

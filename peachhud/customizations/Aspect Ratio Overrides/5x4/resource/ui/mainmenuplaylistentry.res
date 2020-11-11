@@ -27,15 +27,15 @@
 		"actionsignallevel"						"2"
 
 		"paintbackground"						"0"
-		
+
 		"defaultFgColor_override"				"White"
 		"armedFgColor_override"					"White"
 		"depressedFgColor_override"				"White"
-		
+
 		"border_default"						"BlackTransparent50"
 		"border_armed"							"OrangeTransparent50"
 	}
-	
+
 	"MatchmakingBanPanel"
 	{
 		"ControlName"							"EditablePanel"
@@ -73,31 +73,31 @@
 			"paintbackground"					"0"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	////DEAD STUFF////
-	
+
 	"ModeImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -109,7 +109,7 @@
 		"tall"			"p1.17"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
@@ -141,7 +141,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 	}
@@ -158,7 +158,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 	}
 
@@ -174,11 +174,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}
-	
+
 	"DisabledIcon"
 	{
 		"ControlName"							"CExImageButton"
@@ -193,22 +193,22 @@
 		"actionsignallevel"						"1"
 		"command"								"comp_access_info"
 		"labeltext"								""
-		"eatmouseinput"							"0"	
+		"eatmouseinput"							"0"
 		"button_activation_type"				"1"
 
 		"sound_depressed"						"UI/buttonclick.wav"
 		"sound_released"						"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 				"White"
 		"armedFgColor_override" 				"255 200 55 255"
 		"depressedFgColor_override" 			"White"
 		"defaultBgColor_override"				"Blank"
 		"armedBgColor_override" 				"Blank"
 		"depressedBgColor_override" 			"Blank"
-		
+
 		"image_drawcolor"						"235 235 235 235"
 		"image_armedcolor"						"255 200 55 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"						"ImagePanel"
@@ -223,9 +223,9 @@
 			"image"								"locked_icon"
 			"scaleImage"						"1"
 			"proportionaltoparent" 				"1"
-		}	
+		}
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"	"CExLabel"

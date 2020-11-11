@@ -29,10 +29,10 @@
 		"font"							"Size 30"
 		"AllCaps"						"1"
 		"fgcolor_override"				"White"
-		
+
 		"mouseinputenabled"				"0"
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"					"CExButton"
@@ -54,20 +54,20 @@
 		"brighttext"					"0"
 		"default"						"0"
 		"Command"						"show_explanations"
-		
+
 		"actionsignallevel"				"1"
 		"proportionaltoparent"			"1"
-		
+
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
-		
-		
+
+
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-			
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
 	}
@@ -85,7 +85,7 @@
 		"proportionaltoparent"			"1"
 		"mouseinputenabled"				"1"
 		"image"							"info"
-		"scaleImage"					"1"	
+		"scaleImage"					"1"
 		"alpha"							"255"
 		"drawcolor"						"BlueLight"
 	}
@@ -114,7 +114,7 @@
 		"visible"						"0"
 		"enabled"						"1"
 		"mouseinputenabled"				"1"
-		"eatmouseinput"					"0"	
+		"eatmouseinput"					"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" 			"1"
 	}
@@ -145,12 +145,12 @@
 		"actionsignallevel"				"1"
 
 		"AllCaps"						"1"
-		
+
 		"paintbackground"				"0"
-		
+
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 		"border_default"				"GreenTransparent50"
 		"border_armed"					"OrangeTransparent50"
 

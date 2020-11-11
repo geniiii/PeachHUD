@@ -14,7 +14,7 @@
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
 	}
-	
+
 	"SkullIcon"
 	{
 		"ControlName"			"CExLabel"
@@ -36,7 +36,7 @@
 		"font"					"Symbols 14"
 		"fgcolor"				"White"
 	}
-	
+
 	"SkullIconShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -59,7 +59,7 @@
 		"fgcolor"				"Shadows"
 		"pin_to_sibling"		"SkullIcon"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -80,7 +80,7 @@
 		"fgcolor"				"White"
 		"font"					"Size 20"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -102,9 +102,9 @@
 		"fgcolor"				"Shadows"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
-	
+
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"

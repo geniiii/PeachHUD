@@ -37,7 +37,7 @@
 			"AllCaps"					"1"
 			"fgcolor"					"White"
 		}
-	
+
 		"ExplanationLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -82,13 +82,13 @@
 			"Command"					"confirm"
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"RedTransparent90"
 			"border_armed"				"OrangeTransparent70"
 		}
@@ -103,7 +103,7 @@
 			"wide"						"48"
 			"tall"						"48"
 			"visible"					"1"
-			"enabled"					"1"	
+			"enabled"					"1"
 			"HealthBonusPosAdj"			"10"
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"Size 11"

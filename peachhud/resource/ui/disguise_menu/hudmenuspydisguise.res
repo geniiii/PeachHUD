@@ -1,7 +1,7 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
 	"TitleBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"TitleBackground"
 		"xpos"					"400"
@@ -15,8 +15,8 @@
 		"paintbackgroundtype"	"3"
 		"bgcolor_override"		"Black"
 	}
-	
-	"MainBackground"	
+
+	"MainBackground"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"MainBackground"
@@ -30,12 +30,12 @@
 		"scaleImage"			"1"
 		"icon"					"hud_menu_bg"
 		"fillcolor"				"BlackTransparent"
-		
+
 		"pin_to_sibling"		"TitleBackground"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"TeamColoredBar"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -54,18 +54,18 @@
 		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_White_70"
 		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Red_70"
 		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-		
+
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		
+
 		"pin_to_sibling"		"MainBackground"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
 		"font"					"Size 16"
@@ -84,12 +84,12 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"White"
-		
+
 		"pin_to_sibling"		"MainBackground"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabelDropshadow"
 		"font"					"Size 16"
@@ -110,9 +110,9 @@
 		"fgcolor"				"Shadows"
 		"pin_to_sibling"		"TitleLabel"
 	}
-	
+
 	"ToggleLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ToggleLabel"
 		"font"					"Size 8"
@@ -130,12 +130,12 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		
+
 		"pin_to_sibling"		"MainBackground"
 	}
-	
+
 	"ToggleLabelDropshadow"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ToggleLabelDropshadow"
 		"font"					"Size 8"
@@ -154,10 +154,10 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"Shadows"
-		
+
 		"pin_to_sibling"		"ToggleLabel"
 	}
-	
+
 	"class_item_red_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -168,12 +168,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"MainBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
-	
+	}
+
 	"class_item_blue_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -184,10 +184,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_1"
 	}
-	
+
 	"class_item_red_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -198,12 +198,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_1"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -214,10 +214,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_2"
 	}
-	
+
 	"class_item_red_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -228,12 +228,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -244,10 +244,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_3"
 	}
-	
+
 	"class_item_red_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -258,12 +258,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_3"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -274,10 +274,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_4"
 	}
-	
+
 	"class_item_red_5"
 	{
 		"ControlName"			"EditablePanel"
@@ -288,12 +288,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_4"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_5"
 	{
 		"ControlName"			"EditablePanel"
@@ -304,10 +304,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_5"
 	}
-	
+
 	"class_item_red_6"
 	{
 		"ControlName"			"EditablePanel"
@@ -318,12 +318,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_5"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_6"
 	{
 		"ControlName"			"EditablePanel"
@@ -334,10 +334,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_6"
 	}
-	
+
 	"class_item_red_7"
 	{
 		"ControlName"			"EditablePanel"
@@ -348,12 +348,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_6"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_7"
 	{
 		"ControlName"			"EditablePanel"
@@ -364,10 +364,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_7"
 	}
-	
+
 	"class_item_red_8"
 	{
 		"ControlName"			"EditablePanel"
@@ -378,12 +378,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_7"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_8"
 	{
 		"ControlName"			"EditablePanel"
@@ -394,10 +394,10 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_8"
 	}
-	
+
 	"class_item_red_9"
 	{
 		"ControlName"			"EditablePanel"
@@ -408,12 +408,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_8"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-	
+	}
+
 	"class_item_blue_9"
 	{
 		"ControlName"			"EditablePanel"
@@ -424,12 +424,12 @@
 		"wide"					"45"
 		"tall"					"80"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"class_item_red_9"
 	}
-	
+
 	"NumberLabel1"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 60"
@@ -447,14 +447,14 @@
 		"textAlignment"			"center"
 		"dulltext"				"1"
 		"brighttext"			"0"
-		
+
 		"pin_to_sibling"		"class_item_red_2"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"NumberLabel2"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 60"
@@ -472,14 +472,14 @@
 		"textAlignment"			"center"
 		"dulltext"				"1"
 		"brighttext"			"0"
-		
+
 		"pin_to_sibling"		"class_item_red_5"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"NumberLabel3"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 60"
@@ -497,12 +497,12 @@
 		"textAlignment"			"center"
 		"dulltext"				"1"
 		"brighttext"			"0"
-		
+
 		"pin_to_sibling"		"class_item_red_8"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
-	
+
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
@@ -516,12 +516,12 @@
 		"xpos"			"9999"
 	}
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"xpos"			"9999"
 	}
-	"NumberBg1"	
+	"NumberBg1"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"

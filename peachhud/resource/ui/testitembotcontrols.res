@@ -15,7 +15,7 @@
 		"paintborder"			"0"
 		"paintbackground"		"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -35,7 +35,7 @@
 		"AllCaps"		"1"
 		"fgcolor"		"White"
 	}
-	
+
 	"BotAnimationTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -76,7 +76,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"AllCaps"			"1"
-		
+
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"BlackLightTransparent"
 		"disabledFgColor_override" "White"
@@ -85,7 +85,7 @@
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "Blank"
 	}
-	
+
 	"BotForceFireCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -106,7 +106,7 @@
 		"brighttext"	"0"
 		"AllCaps"			"1"
 		"disabledfgcolor2_override"	"White"
-	}	
+	}
 	"BotTurntableCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -127,7 +127,7 @@
 		"brighttext"	"0"
 		"AllCaps"			"1"
 		"disabledfgcolor2_override"	"White"
-	}	
+	}
 	"BotViewScanCheckBox"
 	{
 		"ControlName"	"CheckButton"
@@ -148,8 +148,8 @@
 		"brighttext"	"0"
 		"AllCaps"			"1"
 		"disabledfgcolor2_override"	"White"
-	}	
-	
+	}
+
 	"BotAnimationAnimTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -206,16 +206,16 @@
 		"default"		"1"
 		"Command"		"cancel"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
@@ -241,16 +241,16 @@
 		"default"		"1"
 		"Command"		"ok"
 		"AllCaps"		"1"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}

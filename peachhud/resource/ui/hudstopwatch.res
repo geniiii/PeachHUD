@@ -26,7 +26,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
-		}	
+		}
 	}
 
 	"StopWatchScoreToBeat"
@@ -45,12 +45,12 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		
+
 		"pin_to_sibling"		"ObjectiveStatusTimePanel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -68,13 +68,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"0"
-		
+
 		"pin_to_sibling"		"StopWatchScoreToBeat"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
-	
+
 	"HudStopWatchBG"
 	{
 		"ControlName"			"ScalableImagePanel"

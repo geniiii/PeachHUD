@@ -9,7 +9,7 @@
 		"tileImage"					"0"
 		"scaleImage"				"1"
 		"image"						"illustrations/training_basic"
-	}	
+	}
 
 	"SelectButton"
 	{
@@ -28,12 +28,12 @@
 		"brighttext"				"0"
 		"Command"					"%selectcommand%"
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlackTransparent50"
 		"border_armed"				"OrangeTransparent50"
 
@@ -41,7 +41,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "White"
 	}
-	
+
 	"ProgressLabel"
 	{
 		"ControlName"				"CExLabel"

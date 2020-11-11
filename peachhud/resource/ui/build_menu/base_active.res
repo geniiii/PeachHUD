@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemBackground"
 		"xpos"					"0"
@@ -13,7 +13,7 @@
 		"enabled"				"0"
 		"bgcolor_override"		"BlackTransparent"
 	}
-	
+
 	"TeamColoredBar"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -32,16 +32,16 @@
 		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_White_70"
 		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Red_70"
 		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-		
+
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
 		"font"					"Size 11"
@@ -62,8 +62,8 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"BuildingIcon"
@@ -74,14 +74,14 @@
 		"tall"					"60"
 		"visible"				"1"
 		"enabled"				"1"
-		"scaleImage"			"1"	
+		"scaleImage"			"1"
 		"icon"					"hud_menu_sentry_build"
 		"iconColor"				"White"
 		"pin_to_sibling"		"ItemNameLabel"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CostLabel"
 		"font"					"Size 10"
@@ -97,13 +97,13 @@
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"west"
-		
+
 		"pin_to_sibling"		"BuildingIcon"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MetalIcon"
@@ -114,16 +114,16 @@
 		"tall"				"6"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_metal"
 		"iconColor"			"White"
 		"pin_to_sibling"		"CostLabel"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"Size 12"
@@ -145,14 +145,14 @@
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ModeLabel"
 		"xpos"					"9999"
 	}
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"NumberBg"

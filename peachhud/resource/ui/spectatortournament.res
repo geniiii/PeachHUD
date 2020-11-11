@@ -9,7 +9,7 @@
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"enabled"							"1"
-		
+
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"250"
 		"team1_player_delta_x"				"0"
@@ -18,17 +18,17 @@
 		"team2_player_base_y"				"214"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-17"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"						"0"
 			"wide"							"140"
 			"tall"							"16"
 			"zpos"							"1"
-			
+
 			"color_ready"					"0 255 0 220"
 			"color_notready"				"0 0 0 220"
-			
+
 			"PlayerName"
 			{
 				"ControlName"				"CExLabel"
@@ -46,7 +46,7 @@
 				"textAlignment"				"west"
 				"fgcolor"					"White"
 			}
-			
+
 			"PlayerNameShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -65,7 +65,7 @@
 				"fgcolor"					"Shadows"
 				"pin_to_sibling"			"playername"
 			}
-			
+
 			"ClassImage"
 			{
 				"ControlName"				"CTFClassImage"
@@ -80,7 +80,7 @@
 				"image"						"../hud/class_scoutred"
 				"scaleImage"				"1"
 			}
-			
+
 			"ClassImageBG"
 			{
 				"ControlName"				"Panel"
@@ -96,7 +96,7 @@
 				"PaintBackgroundType"		"0"
 				"pin_to_sibling"			"ClassImage"
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"				"EditablePanel"
@@ -108,7 +108,7 @@
 				"tall"						"14"
 				"proportionaltoparent" 		"1"
 				"visible"					"1"
-				"enabled"					"1"	
+				"enabled"					"1"
 				"HealthBonusPosAdj"			"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -117,7 +117,7 @@
 				"textinsetx"				"-10"
 				"bgcolor_override"			"Blank"
 			}
-			
+
 			"HealthBlackBG"
 			{
 				"ControlName"				"EditablePanel"
@@ -134,7 +134,7 @@
 				"border"					"TFFatLineBorder"
 				"pin_to_sibling"			"HealthIcon"
 			}
-			
+
 			"RespawnTime"
 			{
 				"ControlName"				"CExLabel"
@@ -152,7 +152,7 @@
 				"textAlignment"				"center"
 				"fgcolor"					"White"
 			}
-			
+
 			"ChargeAmount"
 			{
 				"ControlName"				"CExLabel"
@@ -170,7 +170,7 @@
 				"textAlignment"				"center"
 				"fgcolor"					"GreenLight"
 			}
-			
+
 			"ChargeAmountShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -189,7 +189,7 @@
 				"fgcolor"					"Shadows"
 				"pin_to_sibling"			"ChargeAmount"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"				"ScalableImagePanel"
@@ -208,7 +208,7 @@
 				"fieldName"					"specindex"
 				"xpos"						"9999"
 			}
-		}	
+		}
 	}
 
 	"topbar"
@@ -251,13 +251,13 @@
 		"textinsetx"						"20"
 		"font"								"Size 12"
 		"bgcolor_override"					"Blank"
-		
+
 		if_mvm
 		{
 			"ypos"							"80"
-		}	
+		}
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"						"CExLabel"
@@ -276,13 +276,13 @@
 		"font"								"Size 12"
 		"wrap"								"1"
 		"centerwrap"						"1"
-	
+
 		if_mvm
 		{
 			"visible"						"1"
-		}	
+		}
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"						"CExLabel"
@@ -300,7 +300,7 @@
 		"ControlName"						"CExLabel"
 		"fieldName"							"SwitchCamModeKeyLabel"
 		"visible"							"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -351,22 +351,22 @@
 		"PaintBackground"					"0"
 		"PaintBorder"						"1"
 		"border"							"BlackTransparent50"
-		
+
 		"model_ypos"						"10"
 		"model_center_x"					"1"
 		"model_wide"						"90"
 		"model_tall"						"60"
-		
+
 		"text_xpos"							"10"
 		"text_ypos"							"10"
 		"text_wide"							"170"
 		"text_center"						"1"
-		
+
 		"max_text_height"					"100"
 		"padding_height"					"10"
 		"resize_to_text"					"1"
 		"text_forcesize"					"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"						"itemmodelpanel"
@@ -374,9 +374,9 @@
 			"inventory_image_type"			"1"
 			"useparentbg"					"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"					"Label"
 			"fieldName"						"ItemLabel"
 			"font"							"DefaultSmall"
@@ -394,7 +394,7 @@
 			"dulltext"						"0"
 			"brighttext"					"0"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"					"CExLabel"
@@ -403,7 +403,7 @@
 			"xpos"							"9999"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"						"EditablePanel"

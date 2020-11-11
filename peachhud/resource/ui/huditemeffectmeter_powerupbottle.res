@@ -14,7 +14,7 @@
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -28,7 +28,7 @@
 		"PaintBackgroundType"	"3"
 		"bgcolor_override"		"Black"
 	}
-	
+
 	"ItemEffectIcon"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -42,10 +42,10 @@
 		"enabled"				"1"
 		"image"					"../hud/ico_powerup_critboost_red"
 		"scaleImage"			"1"
-		
+
 		"pin_to_sibling"		"ItemEffectMeterBG"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -54,7 +54,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"20"
-		"tall"					"15"	
+		"tall"					"15"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -64,10 +64,10 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Size 20"
-		
+
 		"pin_to_sibling"		"ItemEffectMeterBG"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -78,16 +78,16 @@
 		"textAlignment" 		"west"
 		"xpos"					"-1"
 		"ypos"					"0"
-		"zpos"					"1"	
+		"zpos"					"1"
 		"wide"					"20"
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"1"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
-	
+
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -95,7 +95,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"

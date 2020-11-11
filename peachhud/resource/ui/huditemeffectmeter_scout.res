@@ -7,9 +7,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"ypos"			"r85"
 	}
-	
+
 	"BonkLine"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BonkLine"
 		"xpos"					"21"
@@ -20,7 +20,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"border"				"RedTransparent90"
-		
+
 		"pin_to_sibling"		"HudItemEffectMeter"
 	}
 }

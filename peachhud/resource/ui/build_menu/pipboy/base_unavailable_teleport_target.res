@@ -3,12 +3,12 @@
 "Resource/UI/build_menu/base_unavailable.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"bgcolor_override"		"RedLight"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CantBuildReason"
 		"font"					"Size 12"
@@ -29,14 +29,14 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
 }

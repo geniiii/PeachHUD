@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
 	"HealthAmmoHeight"
-	{	
+	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HealthAmmoHeight"
 		"xpos"				"0"
@@ -14,9 +14,9 @@
 		"paintbackgroud"	"1"
 		"bgcolor_override"	"Red"
 	}
-	
+
 	"HealthDistance"
-	{	
+	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HealthDistance"
 		"xpos"				"c-201"
@@ -29,9 +29,9 @@
 		"paintbackgroud"	"1"
 		"bgcolor_override"	"Red"
 	}
-	
+
 	"AmmoDistance"
-	{	
+	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"AmmoDistance"
 		"xpos"				"c1"

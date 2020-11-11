@@ -3,22 +3,22 @@
 "Resource/UI/build_menu/base_inactive.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"bgcolor_override"		"RedLight"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
-	
+
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NotBuiltLabel"
 		"font"					"Size 11"

@@ -14,9 +14,9 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-	
-	
-	
+
+
+
 	"ProgressBar"
 	{
 		"ControlName"		"CircularProgressBar"
@@ -36,7 +36,7 @@
 		"xpos"				"9999"
 	}
 	"ProgressText"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"ProgressText"
 		"xpos"				"9999"

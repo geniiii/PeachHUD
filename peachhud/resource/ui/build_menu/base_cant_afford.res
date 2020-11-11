@@ -3,17 +3,17 @@
 "Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"bgcolor_override"		"Blank"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CantBuildReason"
 		"font"					"Size 9"
@@ -34,9 +34,9 @@
 		"brighttext"			"0"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CostLabel"
 		"font"					"Size 10"
@@ -52,13 +52,13 @@
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"west"
-		
+
 		"pin_to_sibling"		"CantBuildReason"
 		"pin_corner_to_sibling"	"PIN_CENTERBOTTOM"
 		"pin_to_sibling_corner"	"PIN_CENTERTOP"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MetalIcon"
@@ -69,7 +69,7 @@
 		"tall"				"6"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_metal"
 		"iconColor"			"White"
 		"pin_to_sibling"		"CostLabel"

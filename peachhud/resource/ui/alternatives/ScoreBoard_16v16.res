@@ -24,7 +24,7 @@
 		"killstreak_width"			"12"
 		"killstreak_image_width" 	"12"
 	}
-	
+
 	"MainBG"						//Used to move the entire scoreboard
 	{
 		"ControlName"				"EditablePanel"
@@ -39,13 +39,13 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"BlackTransparent50"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"BlueScoreBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -60,17 +60,17 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"BlueTransparent70"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"RedScoreBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -85,17 +85,17 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"RedTransparent70"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"BlueTeamScore"
 	{
 		"ControlName"				"CExLabel"
@@ -105,7 +105,7 @@
 		"labelText"					"%blueteamscore%"
 		"textAlignment"				"west"
 		"xpos"						"-4"
-		"ypos"						"-2" 
+		"ypos"						"-2"
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"20"
@@ -113,15 +113,15 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"BlueScoreBG"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"BlueTeamLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -139,17 +139,17 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling" 			"BlueScoreBG"
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"BlueTeamPlayerCountIcon"
 	{
 		"ControlName"				"CExLabel"
@@ -167,17 +167,17 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"BlueScoreBG"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"				"CExLabel"
@@ -194,17 +194,17 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"BlueTeamPlayerCountIcon"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"RedTeamScore"
 	{
 		"ControlName"				"CExLabel"
@@ -222,17 +222,17 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"RedScoreBG"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"RedTeamLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -250,17 +250,17 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"AllCaps"					"1"
-		
+
 		"pin_to_sibling" 			"RedScoreBG"
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"RedTeamPlayerCountIcon"
 	{
 		"ControlName"				"CExLabel"
@@ -278,15 +278,15 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"RedScoreBG"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"RedTeamPlayerCount"
 	{
 		"ControlName"				"CExLabel"
@@ -303,17 +303,17 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"RedTeamPlayerCountIcon"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"BluePlayerList"
 	{
 		"ControlName"				"SectionedListPanel"
@@ -332,17 +332,17 @@
 		"linegap"					"0"
 		"fgcolor"					"blue"
 		"show_columns"				"0"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"RedPlayerList"
 	{
 		"ControlName"				"SectionedListPanel"
@@ -361,7 +361,7 @@
 		"linegap"					"0"
 		"fgcolor"					"red"
 		"show_columns"				"0"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -371,7 +371,7 @@
  			"visible"				"0"
  		}
 	}
-	
+
 	"TimePanelBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -384,13 +384,13 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"BlackTransparent70"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"ServerTimeLeft"
 	{
 		"ControlName"				"CExLabel"
@@ -408,15 +408,15 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
-		
+
 		"pin_to_sibling" 			"TimePanelBG"
-		
+
 		if_mvm
 		{
 			"visible"				"0"
 		}
 	}
-	
+
 	"Spectators"
 	{
 		"ControlName"				"CExLabel"
@@ -433,12 +433,12 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"SpectatorsInQueue"
 	{
 		"ControlName"				"CExLabel"
@@ -455,12 +455,12 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"ServerLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -479,7 +479,7 @@
 		"enabled"					"1"
 		"fgcolor"					"White"
 	}
-	
+
 	"StatsSeparator"
 	{
 		"ControlName"				"EditablePanel"
@@ -494,17 +494,17 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"White"
-		
+
 		"pin_to_sibling" 			"MainBG"
 		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
-		
+
 		if_mvm
  		{
  			"visible"				"0"
  		}
 	}
-	
+
 	"MapName"
 	{
 		"ControlName"				"CExLabel"
@@ -537,11 +537,11 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		
+
 		"pin_to_sibling"			"MainBG"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		
+
 		if_mvm
 		{
 			"xpos"					"c-232"
@@ -549,7 +549,7 @@
 			"zpos"					"20"
 			"wide"					"530"
 			"tall"					"34"
-			
+
 			"pin_to_sibling"		""
 		}
 
@@ -571,7 +571,7 @@
 			"enabled"				"0"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -595,13 +595,13 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"GreenLight"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"KDLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -620,17 +620,17 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"Killss"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"DeathsLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -649,11 +649,11 @@
 			"enabled"				"0"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -677,17 +677,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"RedLight"
-			
+
 			"pin_to_sibling"		"KDLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"DamageLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -706,11 +706,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"OrangeLight"
-			
+
 			"pin_to_sibling"		"Killss"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -733,17 +733,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"OrangeLight"
-			
+
 			"pin_to_sibling"		"DamageLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"AssistsLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -762,7 +762,7 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -785,17 +785,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"HeadshotsLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -814,11 +814,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -841,17 +841,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"HeadshotsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"BackstabsLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -870,11 +870,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"HeadshotsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -897,17 +897,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"BackstabsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"CapturesLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -926,11 +926,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"Assistss"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -953,17 +953,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"CapturesLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"DefensesLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -982,11 +982,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"CapturesLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1009,17 +1009,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DefensesLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"DestructionLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1038,16 +1038,16 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DefensesLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
-		}	
+		}
 		"Destructionss"
 		{
 			"ControlName"			"CExLabel"
@@ -1065,17 +1065,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DestructionLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"TeleportsLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1094,11 +1094,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"Capturess"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1121,17 +1121,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"TeleportsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"InvulnLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1150,11 +1150,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"TeleportsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1177,17 +1177,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"InvulnLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"HealingLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1206,11 +1206,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"InvulnLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1233,17 +1233,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"HealingLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"DominationLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1262,11 +1262,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"Teleportss"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1289,17 +1289,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DominationLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"RevengeLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1318,11 +1318,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DominationLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1345,17 +1345,17 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"RevengeLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
 		}
-		
+
 		"BonusLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1375,11 +1375,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"RevengeLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
@@ -1402,21 +1402,21 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"BonusLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"0"
 			}
-		}	
-		
+		}
+
 		/////////////////////////////////////////////////////////////////
 		///////////////////////////////MVM///////////////////////////////
 		/////////////////////////////////////////////////////////////////
-		
+
 		"KillsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1435,7 +1435,7 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1458,17 +1458,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"KillsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"DeathsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1487,11 +1487,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"KillsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1514,17 +1514,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DeathsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"AssistsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1543,11 +1543,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"KillsMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1570,17 +1570,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"AssistsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"CapturesLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1599,11 +1599,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"AssistsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1626,17 +1626,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"CapturesLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"DefensesLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1655,11 +1655,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"AssistsMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1682,17 +1682,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DefensesLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"DestructionLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1711,16 +1711,16 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DefensesLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
-		}	
+		}
 		"DestructionsMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1738,17 +1738,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DestructionLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"TeleportsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1767,11 +1767,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"DefensesMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1794,17 +1794,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"TeleportsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"HeadshotsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1823,11 +1823,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"TeleportsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1850,17 +1850,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"HeadshotsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"BackstabsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1879,11 +1879,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"TeleportsMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1906,17 +1906,17 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"BackstabsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
 			}
 		}
-		
+
 		"InvulnLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1935,11 +1935,11 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"BackstabsLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1962,11 +1962,11 @@
 			"visible"				"0"
 			"enabled"				"1"
 			"fgcolor"				"White"
-			
+
 			"pin_to_sibling"		"InvulnLabelMVM"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			if_mvm
 			{
 				"visible"			"1"
@@ -1985,15 +1985,15 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
-		
+
 		"verbose"			"1"
-		
+
 		if_mvm
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -2007,11 +2007,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"			"MainBG"
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -2062,7 +2062,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-	
+
 			"AvatarBGPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -2088,11 +2088,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -2141,7 +2141,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-	
+
 			"AvatarBGPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -2167,11 +2167,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -2208,8 +2208,8 @@
 			}
 		}
 	}
-	
-	
+
+
 	"BlueTeamScoreDropshadow"
 	{
 		"ControlName"				"CExLabel"

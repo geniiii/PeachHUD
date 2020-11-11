@@ -10,9 +10,9 @@
 		"name_width"							"57"
 		"horiz_inset"							"2"
 	}
-	
+
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"CountdownLabel"
 		"font"									"Size 24 Shadow"
@@ -36,7 +36,7 @@
 			"xpos"								"300"
 			"ypos"								"130"
 		}
-	}	
+	}
 
 	"FrontParticlePanel"
 	{
@@ -63,7 +63,7 @@
 			}
 		}
 
-		"paintbackground"						"0"	
+		"paintbackground"						"0"
 	}
 
 	"MatchDoors"
@@ -72,7 +72,7 @@
 		"fieldName"								"MatchDoors"
 		"xpos"									"0"
 		"ypos"									"0"
-		"zpos"									"2"		
+		"zpos"									"2"
 		"wide"									"f0"
 		"tall"									"f0"
 		"autoResize"							"0"
@@ -81,7 +81,7 @@
 		"enabled"								"1"
 		"fov"									"70"
 		"proportionaltoparent"					"1"
-		
+
 		"model"
 		{
 			"modelname"							"models/vgui/versus_doors.mdl"
@@ -105,7 +105,7 @@
 				"name"							"open"
 				"sequence"						"open"
 			}
-			
+
 			"animation"
 			{
 				"name"							"close"
@@ -138,7 +138,7 @@
 		"NegativeColor"							"RedLight"
 		"delta_lifetime"						"1.5"
 		"delta_item_font"						"Size 16"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"						"CExLabel"
@@ -154,7 +154,7 @@
 			"enabled"							"1"
 			"textAlignment"						"center"
 			"labelText"							"0:00"
-		}	
+		}
 	}
 
 	"BlueTeamPanel"
@@ -190,7 +190,7 @@
 			"enabled"							"1"
 			"border"							"TFFatLineBorderBlueBGOpaque"
 		}
-		
+
 		"BlueTeamImage"
 		{
 			"ControlName"						"ImagePanel"
@@ -205,7 +205,7 @@
 			"image"								"../hud/team_blue"
 			"scaleImage"						"1"
 		}
-		
+
 		"BlueTeamLabel"
 		{
 			"ControlName"						"CExLabel"
@@ -224,23 +224,23 @@
 			"enabled"							"1"
 			"centerwrap"						"1"
 		}
-		
+
 		"BlueLeaderAvatar"
 		{
 			"ControlName"						"CAvatarImagePanel"
 			"fieldName"							"BlueLeaderAvatar"
 			"xpos"								"11"
 			"ypos"								"10"
-			"zpos"								"5"	
+			"zpos"								"5"
 			"wide"								"35"
 			"tall"								"35"
 			"visible"							"1"
 			"enabled"							"1"
 			"image"								""
-			"scaleImage"						"1"	
+			"scaleImage"						"1"
 			"color_outline"						"52 48 45 255"
 		}
-		
+
 		"BlueLeaderAvatarBG"
 		{
 			"ControlName"						"EditablePanel"
@@ -254,7 +254,7 @@
 			"PaintBackgroundType"				"2"
 			"bgcolor_override"					"117 107 94 255"
 		}
-		
+
 		"BluePlayerList"
 		{
 			"ControlName"						"SectionedListPanel"
@@ -278,7 +278,7 @@
 				"tall"							"315"
 			}
 		}
-		
+
 		"BluePlayerListBG"
 		{
 			"ControlName"						"EditablePanel"
@@ -334,7 +334,7 @@
 			"enabled"							"1"
 			"border"							"TFFatLineBorderRedBGOpaque"
 		}
-		
+
 		"RedTeamImage"
 		{
 			"ControlName"						"ImagePanel"
@@ -349,7 +349,7 @@
 			"image"								"../hud/team_Red"
 			"scaleImage"						"1"
 		}
-		
+
 		"RedTeamLabel"
 		{
 			"ControlName"						"CExLabel"
@@ -368,7 +368,7 @@
 			"enabled"							"1"
 			"centerwrap"						"1"
 		}
-		
+
 		"RedLeaderAvatar"
 		{
 			"ControlName"						"CAvatarImagePanel"
@@ -381,10 +381,10 @@
 			"visible"							"1"
 			"enabled"							"1"
 			"image"								""
-			"scaleImage"						"1"	
+			"scaleImage"						"1"
 			"color_outline"						"52 48 45 255"
 		}
-		
+
 		"RedLeaderAvatarBG"
 		{
 			"ControlName"						"EditablePanel"
@@ -398,7 +398,7 @@
 			"PaintBackgroundType"				"2"
 			"bgcolor_override"					"117 107 94 255"
 		}
-		
+
 		"RedPlayerList"
 		{
 			"ControlName"						"SectionedListPanel"
@@ -422,7 +422,7 @@
 				"tall"							"315"
 			}
 		}
-		
+
 		"RedPlayerListBG"
 		{
 			"ControlName"						"EditablePanel"
@@ -444,7 +444,7 @@
 			}
 		}
 	}
-	
+
 	"RoundCounter"
 	{
 		"fieldName"								"RoundCounter"
@@ -455,12 +455,12 @@
 		"tall"									"15"
 		"visible"								"1"
 		"enabled"								"1"
-		
+
 		"starting_width"						"0"
 		"width_per_round"						"0"
 		"indicator_start_offset"				"2"
 		"indicator_max_wide"					"23"
-		
+
 		"RoundIndicatorPanel_kv"
 		{
 			"ypos"								"0"
@@ -470,7 +470,7 @@
 			"image"								"../vgui/replay/thumbnails/panels/Material_Transparent_Black_70"
 			"scaleimage"						"1"
 		}
-		
+
 		"RoundWinPanelRed_kv"
 		{
 			"ypos"								"0"
@@ -490,13 +490,13 @@
 			"image"								"../vgui/replay/thumbnails/panels/Panel_Blue"
 			"scaleimage"						"1"
 		}
-		
+
 		"Background"
 		{
 			"ypos"								"9999"
 		}
 	}
-	
+
 	"RoundSignModel"
 	{
 		"ControlName"							"CModelPanel"
@@ -505,7 +505,7 @@
 		"wide"									"0"
 	}
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"CountdownLabelShadow"
 		"wide"									"0"
@@ -519,14 +519,14 @@
 		"tall"									"0"
 	}
 	"RankUpLabel"
-	{	
+	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"RankUpLabel"
 		"wide"									"0"
 		"tall"									"0"
 	}
 	"RankUpShadowLabel"
-	{	
+	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"RankUpShadowLabel"
 		"wide"									"0"

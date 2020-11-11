@@ -1,5 +1,5 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
+{
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -26,7 +26,7 @@
 
 		"border"	"NoBorder"
 		"paintborder"	"2"
-		
+
 		"Header"
 		{
 			"ControlName"	"Label"

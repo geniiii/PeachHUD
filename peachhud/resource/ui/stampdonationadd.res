@@ -19,7 +19,7 @@
 		"paintbackground"				"1"
 		"bgcolor_override"				"BlackTransparent"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"					"CExLabel"
@@ -39,7 +39,7 @@
 		"AllCaps"						"1"
 		"fgcolor" 						"BlueLight"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"					"CExLabel"
@@ -134,21 +134,21 @@
 		"dulltext"						"0"
 		"brighttext"					"0"
 		"Command"						"nope"
-		
+
 		"AllCaps"						"1"
-		
+
 		"paintbackground"				"0"
-		
+
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
 
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
-	}			
+	}
 
 	"ConfirmButton"
 	{
@@ -171,14 +171,14 @@
 		"dulltext"						"0"
 		"brighttext"					"0"
 		"Command"						"add_stamp_to_cart"
-		
+
 		"AllCaps"						"1"
-		
+
 		"paintbackground"				"0"
-		
+
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
 
@@ -186,7 +186,7 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
 	}
-	
+
 	"PriceLabelBG"
 	{
 		"ControlName"					"EditablePanel"
@@ -198,7 +198,7 @@
 		"tall"							"25"
 		"visible"						"1"
 		"enabled"						"1"
-		
+
 		"paintbackground"				"0"
 		"border"						"GreenTransparent70"
 	}

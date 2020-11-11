@@ -1,18 +1,18 @@
 "Resource/UI/HudSpellSelection.res"
-{		
+{
 	HudSpellMenu
 	{
 		"xpos"					"c139"
 		"xpos_minmode"			"0"
 		"ypos"					"r112"
 		"ypos_minmode"			"r20"
-		
+
 		"if_killstreak_visible"
 		{
 			"xpos_minmode"				"85"
 		}
 	}
-	
+
 	"SpellBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -28,8 +28,8 @@
 		"bgcolor_override"		"BlackTransparent"
 		"alpha"					"255"
 	}
-	
-	
+
+
 	"SpellIcon"
 	{
 		"ControlName"			"ImagePanel"
@@ -41,12 +41,12 @@
 		"tall"					"12"
 		"visible"				"1"
 		"enabled"				"1"
-		"scaleImage"			"1"	
+		"scaleImage"			"1"
 		"image"					"../signs/death_wheel_whammy"
 		"fgcolor"				"255 255 255 255"
 		"drawcolor"				"White"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"			"CExLabel"
@@ -60,12 +60,12 @@
 		"tall"					"0"		//10
 		"fgcolor"				"White"
 		"visible"				"1"
-		
+
 		"pin_to_sibling"		"SpellIcon"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"			"CExLabel"
@@ -75,16 +75,16 @@
 		"textAlignment" 		"west"
 		"xpos"					"1"
 		"ypos"					"3"
-		"zpos"					"2"	
+		"zpos"					"2"
 		"wide"					"20"
 		"tall"					"18"
 		"fgcolor"				"White"
-		
+
 		"pin_to_sibling"		"SpellIcon"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"CountTextShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -95,14 +95,14 @@
 		"textAlignment" 		"west"
 		"xpos"					"-1"
 		"ypos"					"-1"
-		"zpos"					"1"	
+		"zpos"					"1"
 		"wide"					"20"
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"1"
 		"pin_to_sibling"		"CountText"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"

@@ -14,7 +14,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -32,7 +32,7 @@
 		"brighttext"			"0"
 		"bgcolor_override"		"BlackLightTransparent"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -53,7 +53,7 @@
 		"brighttext"			"0"
 		"font"					"Size 8"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"			"CTFImagePanel"

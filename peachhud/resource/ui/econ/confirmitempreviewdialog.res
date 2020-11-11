@@ -28,13 +28,13 @@
 		"noitem_textcolor"			"White"
 		"PaintBackgroundType"		"2"
 		"paintborder"				"1"
-		
+
 		"text_ypos"					"20"
 		"text_center"				"1"
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-		
+
 		"attriblabel"
 		{
 			"font"					"ItemFontAttribLarge"
@@ -99,9 +99,9 @@
 		"ControlName"				"ScalableImagePanel"
 		"fieldName"					"tool_icon"
 		"xpos"						"9999"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"				"CItemModelPanel"
 		"fieldName"					"tool_modelpanel"
 		"xpos"						"158"
@@ -174,17 +174,17 @@
 		"Command"					"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"				"CExButton"
@@ -209,13 +209,13 @@
 		"Command"					"apply"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 	}

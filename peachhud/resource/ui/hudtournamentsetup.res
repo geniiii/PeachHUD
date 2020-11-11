@@ -24,7 +24,7 @@
 		"labelText"							"%teamname%"
 		"textAlignment"						"center"
 	}
-	
+
 	"ReadyBG"
 	{
 		"ControlName"						"EditablePanel"
@@ -39,7 +39,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							""
-		
+
 		"WhiteBG"
 		{
 			"ControlName"					"EditablePanel"
@@ -55,7 +55,7 @@
 			"enabled"						"1"
 			"border"						"BlackTransparent70"
 		}
-		
+
 		"GreenBar"
 		{
 			"ControlName"					"EditablePanel"
@@ -72,7 +72,7 @@
 			"border"						"GreenTransparent70"
 		}
 	}
-	
+
 	"NotReadyBG"
 	{
 		"ControlName"						"EditablePanel"
@@ -87,7 +87,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							""
-		
+
 		"WhiteBG"
 		{
 			"ControlName"					"EditablePanel"
@@ -103,7 +103,7 @@
 			"enabled"						"1"
 			"border"						"BlackTransparent70"
 		}
-		
+
 		"RedBar"
 		{
 			"ControlName"					"EditablePanel"
@@ -120,7 +120,7 @@
 			"border"						"RedTransparent70"
 		}
 	}
-	
+
 	"TournamentReadyButton"
 	{
 		"ControlName"						"CExButton"
@@ -138,15 +138,15 @@
 		"textAlignment"						"center"
 		"dulltext"							"0"
 		"brighttext"						"0"
-		"command"							"teamready" 
+		"command"							"teamready"
 		"default"							"1"
 		"font"								"ReadyUp 20"
 		"paintbackground"					"0"
-		
+
 		"defaultFgColor_override"			"WhiteTransparent"
 		"armedFgColor_override"				"Gray"
 		"depressedFgColor_override"			"WhiteTransparent"
-		
+
 		"pin_to_sibling"					"ReadyBG"
 	}
 
@@ -167,20 +167,20 @@
 		"textAlignment"						"center"
 		"dulltext"							"0"
 		"brighttext"						"0"
-		"command"							"teamnotready" 
+		"command"							"teamnotready"
 		"default"							"1"
 		"font"								"ReadyUp 20"
 		"paintbackground"					"0"
-		
+
 		"defaultFgColor_override"			"WhiteTransparent"
 		"armedFgColor_override"				"Gray"
 		"depressedFgColor_override"			"WhiteTransparent"
-		
+
 		"pin_to_sibling"					"NotReadyBG"
 	}
 
-	
-	
+
+
 	"HudTournamentSetupBG"
 	{
 		"ControlName"						"ScalableImagePanel"
@@ -188,13 +188,13 @@
 		"xpos"								"9999"
 	}
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"						"Label"
 		"fieldName"							"TournamentLabel"
 		"xpos"								"9999"
 	}
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"						"Label"
 		"fieldName"							"TournamentTeamNameLabel"
 		"xpos"								"9999"

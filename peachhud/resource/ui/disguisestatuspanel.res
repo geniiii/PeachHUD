@@ -4,7 +4,7 @@
 	{
 		"ControlName"				"CEmbeddedItemModelPanel"
 		"fieldName"					"itemmodelpanel"
-	
+
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"1"
@@ -28,7 +28,7 @@
 			"angles_z"				"0"
 		}
 	}
-	
+
 	"DisguiseStatusBG"
 	{
 		"ControlName"				"CTFImagePanel"
@@ -47,16 +47,16 @@
 		"teambg_1"					"replay/thumbnails/panels/Material_Transparent_White_70"
 		"teambg_2"					"replay/thumbnails/panels/Material_Transparent_Red_70"
 		"teambg_3"					"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"			"32"
 		"src_corner_width"			"32"
-		
+
 		"draw_corner_width"			"0"
 		"draw_corner_height" 		"0"
-		
+
 		"pin_to_sibling"			"Background"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"				"EditablePanel"
@@ -74,7 +74,7 @@
 		"paintbackgroundtype"		"0"
 		"bgcolor_override"			"BlackLightTransparent"
 	}
-	
+
 	"Separator"
 	{
 		"ControlName"				"EditablePanel"
@@ -95,7 +95,7 @@
 	}
 
 	"DisguiseNameLabel"
-	{	
+	{
 		"ControlName"				"Label"
 		"fieldName"					"DisguiseNameLabel"
 		"font"						"Size 11"
@@ -113,12 +113,12 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"fgcolor_override"			"White"
-		
+
 		"pin_to_sibling"			"Background"
 	}
-	
+
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"				"Label"
 		"fieldName"					"WeaponNameLabel"
 		"font"						"Size 11"
@@ -136,10 +136,10 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"fgcolor_override"			"White"
-		
+
 		"pin_to_sibling"			"DisguiseNameLabel"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"				"EditablePanel"

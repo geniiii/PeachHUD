@@ -17,13 +17,13 @@
 		"paintborder"					"1"
 		"paintbackground"				"0"
 		"border"						"BlackTransparent70"
-		
+
 		"control_w"						"500"
 		"control_h"						"25"
 		"slider_w"						"500"
 		"slider_h"						"25"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"					"CExLabel"
@@ -43,7 +43,7 @@
 		"AllCaps"						"1"
 		"fgcolor_override" 				"BlueLight"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"					"CExButton"
@@ -70,15 +70,15 @@
 		"sound_released"				"UI/buttonclickrelease.wav"
 
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"					"CExButton"
@@ -103,17 +103,17 @@
 		"Command"						"Ok"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
 	}
-	
+
 	"PanelListPanel"
 	{
 		"ControlName"					"CPanelListPanel"
@@ -129,7 +129,7 @@
 		"tabPosition"					"0"
 		"paintbackground"				"0"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -142,7 +142,7 @@
 		"visible"						"0"
 		"PaintBackgroundType"			"2"
 		"border"						"BlackTransparent70"
-		
+
 		"TipLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -163,5 +163,5 @@
 			"wrap"						"1"
 			//"centerwrap"				"1"
 		}
-	}	
+	}
 }

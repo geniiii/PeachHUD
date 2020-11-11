@@ -47,7 +47,7 @@
 		"font"							"Size 20"
 		"AllCaps"						"1"
 		"fgcolor_override"				"White"
-		
+
 		"mouseinputenabled"				"0"
 	}
 
@@ -68,7 +68,7 @@
 		"smallcheckimage"				"1"
 		"fgcolor_override"				"White"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
 
@@ -111,7 +111,7 @@
 		"AllCaps"						"1"
 		"smallcheckimage"				"1"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 
 		"cvar_name" 					"tf_party_ignore_invites"
@@ -133,7 +133,7 @@
 		"smallcheckimage"				"1"
 		"enabled"						"0"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
 
@@ -153,10 +153,10 @@
 		"AllCaps"						"1"
 		"smallcheckimage"				"1"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 		"fgcolor_override"				"White"
-		
+
 		"pin_to_sibling"				"KeepPartyOnSameTeam"
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -178,7 +178,7 @@
 		"smallcheckimage"				"1"
 		"actionsignallevel"				"1"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 
 		"cvar_name"						"tf_mm_custom_ping_enabled"
@@ -201,9 +201,9 @@
 		"fgcolor_override"				"White"
 		"smallcheckimage"				"1"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
-		
+
 		"pin_to_sibling"				"CustomPingCheckButton"
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -225,7 +225,7 @@
 		"wrap"							"1"
 		"fgcolor"						"White"
 
-		"sound_depressed"				"UI/buttonclickrelease.wav"	
+		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
 
@@ -244,7 +244,7 @@
 		"font"							"Size 12"
 		"fgcolor_override"				"OrangeLight"
 		"AllCaps"						"1"
-		
+
 		"mouseinputenabled"				"0"
 	}
 
@@ -315,14 +315,14 @@
 				{
 					"fgcolor_override"	"White"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"		"Button"
 					"FieldName"			"UpButton"
 					"visible"			"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"		"Button"
@@ -331,7 +331,7 @@
 				}
 			}
 		}
-		
+
 		"Background"
 		{
 			"ControlName"				"EditablePanel"

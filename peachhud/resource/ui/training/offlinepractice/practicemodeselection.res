@@ -16,7 +16,7 @@
 		"paintbackgroundtype"		"2"
 		"paintbackground"			"1"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"				"ImagePanel"
@@ -30,7 +30,7 @@
 		"scaleImage"				"1"
 		"image"						"illustrations/bg"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"				"CExButton"
@@ -52,22 +52,22 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"Command"					"goprev"
-		
+
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "White"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"				"CExButton"
@@ -89,22 +89,22 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"Command"					"gonext"
-		
+
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "White"
-	}	
-	
+	}
+
 	"GameModeLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -122,10 +122,10 @@
 		"enabled"					"1"
 		"wrap"						"0"
 		"fgcolor"					"White"
-		
+
 		"AllCaps"					"1"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -145,7 +145,7 @@
 		"wrap"						"1"
 		"fgcolor"					"White"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -163,10 +163,10 @@
 		"enabled"					"1"
 		"wrap"						"0"
 		"fgcolor"					"White"
-		
+
 		"AllCaps"					"1"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"				"CExButton"
@@ -187,14 +187,14 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"Command"					"selectcurrentgamemode"
-		
+
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 
@@ -202,5 +202,5 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "White"
 	}
-	
+
 }

@@ -1,14 +1,14 @@
 "Resource/UI/HudAlert.res"
 {
 	"AlertLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabel"
 		"font"										"Size 11"
 		"xpos"										"100"
 		"ypos"										"70"
 		"zpos"										"1"
-		"wide"										"230"	
+		"wide"										"230"
 		"tall"										"35"
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -20,11 +20,11 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"HudAlertBG"
 	{
 		"ControlName"	"CTFImagePanel"

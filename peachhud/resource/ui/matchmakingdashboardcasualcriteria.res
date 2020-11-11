@@ -29,7 +29,7 @@
 		"font"						"Size 30"
 		"fgcolor_override"			"White"
 		"AllCaps"					"1"
-		
+
 		"mouseinputenabled"			"0"
 	}
 
@@ -58,11 +58,11 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"mouseinputenabled"			"1"
-		"eatmouseinput"				"0"	
+		"eatmouseinput"				"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" 		"1"
 	}
-	
+
 	"QueueButton"
 	{
 		"ControlName"				"CExButton"
@@ -89,12 +89,12 @@
 		"actionsignallevel"			"1"
 
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"GreenTransparent50"
 		"border_armed"				"OrangeTransparent50"
 

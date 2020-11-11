@@ -15,7 +15,7 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
-	
+
 	"CTFLogoPanel"
 	{
 		"ControlName"			"CTFLogoPanel"

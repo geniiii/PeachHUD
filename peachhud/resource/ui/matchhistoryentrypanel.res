@@ -20,7 +20,7 @@
 		"wide"								"f0"
 		"tall"								"17"
 		"proportionaltoparent"				"1"
-		
+
 		"bgcolor_override"					"0 0 0 120"
 
 		"EntryToggleButton"
@@ -59,7 +59,7 @@
 			"proportionaltoparent"			"1"
 			"visible"						"0"
 			"mouseinputenabled"				"0"
-			
+
 			"labeltext"						"#TF_Competitive_MatchHistory_Win"
 			"font"							"Size 11"
 			"fgcolor_override"				"GreenLight"
@@ -78,7 +78,7 @@
 			"proportionaltoparent"			"1"
 			"visible"						"0"
 			"mouseinputenabled"				"0"
-			
+
 			"labeltext"						"#TF_Competitive_MatchHistory_Loss"
 			"font"							"Size 11"
 			"fgcolor_override"				"RedLight"
@@ -97,7 +97,7 @@
 			"proportionaltoparent"			"1"
 			"visible"						"1"
 			"mouseinputenabled"				"0"
-			
+
 			"labeltext"						"%match_date%"
 			"font"							"Size 9"
 			"fgcolor_override"				"White"
@@ -115,7 +115,7 @@
 			"proportionaltoparent"			"1"
 			"visible"						"1"
 			"mouseinputenabled"				"0"
-			
+
 			"labeltext"						"%map_name%"
 			"font"							"Size 9"
 			"fgcolor_override"				"White"
@@ -133,7 +133,7 @@
 			"proportionaltoparent"			"1"
 			"visible"						"1"
 			"mouseinputenabled"				"0"
-			
+
 			"labeltext"						"%kd_ratio%"
 			"font"							"Size 9"
 			"fgcolor_override"				"White"
@@ -149,7 +149,7 @@
 		"ypos"								"17"
 		"wide"								"f0"
 		"tall"								"0"
-		"proportionaltoparent"				"1"		
+		"proportionaltoparent"				"1"
 		"bgcolor_override"					"0 0 0 100"
 		"autoresize"						"2"
 		"pincorner"							"3"
@@ -163,11 +163,11 @@
 			"wide"							"f0"
 			"tall"							"f0"
 			"zpos"							"1"
-			"proportionaltoparent"			"1"	
+			"proportionaltoparent"			"1"
 			"autoresize"					"2"
 			"pincorner"						"3"
-			
-			"border"						"InnerShadowBorder"	
+
+			"border"						"InnerShadowBorder"
 		}
 
 		"SlidingStatsContainer"
@@ -178,8 +178,8 @@
 			"ypos"							"rs1+17"
 			"wide"							"f0"
 			"tall"							"50"
-			"proportionaltoparent"			"1"		
-			
+			"proportionaltoparent"			"1"
+
 			"pincorner"						"3"
 
 			"BGImage"
@@ -191,7 +191,7 @@
 				"wide"						"o1"
 				"tall"						"50"
 				"image"						"casual\gametype_koth"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 			}
 
 			"GradientImage"
@@ -204,7 +204,7 @@
 				"wide"						"o1"
 				"tall"						"40"
 				"image"						"training\gradient_black"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 				"rotation"					"1"
 			}
 
@@ -219,7 +219,7 @@
 				"tall"						"10"
 				"zpos"						"100"
 				"image"						"competitive\competitive_coin_bronze"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 			}
 
 			"KillsLabel"
@@ -233,7 +233,7 @@
 				"proportionaltoparent"		"1"
 				"visible"					"1"
 				"mouseinputenabled"			"0"
-			
+
 				"labeltext"					"%stat_kills%"
 				"font"						"Size 9"
 				"fgcolor_override"			"White"
@@ -251,7 +251,7 @@
 				"proportionaltoparent"		"1"
 				"visible"					"1"
 				"mouseinputenabled"			"0"
-			
+
 				"labeltext"					"%stat_deaths%"
 				"font"						"Size 9"
 				"fgcolor_override"			"White"
@@ -268,7 +268,7 @@
 				"tall"						"10"
 				"zpos"						"100"
 				"image"						"competitive\competitive_coin_bronze"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 			}
 
 			"DamageLabel"
@@ -282,7 +282,7 @@
 				"proportionaltoparent"		"1"
 				"visible"					"1"
 				"mouseinputenabled"			"0"
-			
+
 				"labeltext"					"%stat_damage%"
 				"font"						"Size 9"
 				"fgcolor_override"			"White"
@@ -300,7 +300,7 @@
 				"tall"						"10"
 				"zpos"						"100"
 				"image"						"competitive\competitive_coin_bronze"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 			}
 
 			"HealingLabel"
@@ -314,7 +314,7 @@
 				"proportionaltoparent"		"1"
 				"visible"					"1"
 				"mouseinputenabled"			"0"
-			
+
 				"labeltext"					"%stat_healing%"
 				"font"						"Size 9"
 				"fgcolor_override"			"White"
@@ -331,7 +331,7 @@
 				"tall"						"10"
 				"zpos"						"100"
 				"image"						"competitive\competitive_coin_bronze"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 			}
 
 			"SupportLabel"
@@ -345,7 +345,7 @@
 				"proportionaltoparent"		"1"
 				"visible"					"1"
 				"mouseinputenabled"			"0"
-			
+
 				"labeltext"					"%stat_support%"
 				"font"						"Size 9"
 				"fgcolor_override"			"White"
@@ -362,7 +362,7 @@
 				"tall"						"10"
 				"zpos"						"100"
 				"image"						"competitive\competitive_coin_bronze"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 			}
 
 			"ScoreLabel"
@@ -378,7 +378,7 @@
 				"mouseinputenabled"			"0"
 
 				"pincorner"					"3"
-			
+
 				"labeltext"					"%stat_score%"
 				"font"						"Size 9"
 				"fgcolor_override"			"White"
@@ -394,7 +394,7 @@
 				"wide"						"o1"
 				"tall"						"30"
 				"zpos"						"1"
-				"proportionaltoparent"		"1"	
+				"proportionaltoparent"		"1"
 
 				// First row
 				"ScoutIcon"
@@ -406,7 +406,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_scout"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"PyroIcon"
@@ -418,7 +418,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_pyro"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"SoldierIcon"
@@ -430,7 +430,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_soldier"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				// Second row
@@ -443,7 +443,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_demo"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"HeavyIcon"
@@ -455,7 +455,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_heavy"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"EngineerIcon"
@@ -467,7 +467,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_engineer"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				// Third row
@@ -480,7 +480,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_medic"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"SniperIcon"
@@ -492,7 +492,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_sniper"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"SpyIcon"
@@ -504,7 +504,7 @@
 					"wide"					"p0.333"
 					"tall"					"p0.333"
 					"image"					"class_icons/filter_spy"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 			}
 		}

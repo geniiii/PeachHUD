@@ -35,7 +35,7 @@
 
 		"image"							"gradient_pure_black"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"					"ImagePanel"
@@ -146,7 +146,7 @@
 
 		"textAlignment"					"center"
 		"font"							"Symbols 14"
-		
+
 		"paintbackground"				"0"
 
 		"FgColor"						"Gray"

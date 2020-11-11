@@ -1,5 +1,5 @@
 "Resource/UI/HudKillStreakNotice.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"			"EditablePanel"
@@ -15,7 +15,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"BlackLightTransparent"
 	}
-	
+
 	"SplashLabel"
 	{
 		"ControlName"			"CExLabel"

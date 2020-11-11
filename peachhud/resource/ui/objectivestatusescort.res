@@ -1,5 +1,5 @@
 "Resource/UI/ObjectiveStatusEscort.res"
-{	
+{
 	"ObjectiveStatusEscort"
 	{
 		"ControlName"			"EditablePanel"
@@ -14,11 +14,11 @@
 		"progress_xpos"			""
 		"progress_wide"			""
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"			"CTFHudEscortProgressBar"
-		"fieldName"				"ProgressBar"	
+		"fieldName"				"ProgressBar"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"10"
@@ -27,20 +27,20 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"scaleImage"			"1"
-		
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains"
 		{
 			"tall"				"0"
 			"visible"			"0"
 		}
 	}
-	
+
 	"LevelBar"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"LevelBar"	
+		"fieldName"				"LevelBar"
 		"xpos"					"0"
 		"ypos"					"2"
 		"zpos"					"0"
@@ -53,9 +53,9 @@
 		"fillcolor"				"Blank"
 		"drawcolor"				"Blank"
 		"scaleImage"			"1"
-		
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains"
 		{
 			"zpos"				"3"
@@ -64,28 +64,28 @@
 		{
 			"ypos"				"2"
 		}
-			
+
 		"if_multiple_trains_bottom"
 		{
 			"ypos"				"0"
-		}		
+		}
 	}
 	"LevelBarCustom"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"LevelBarCustom"	
+		"fieldName"				"LevelBarCustom"
 		"xpos"					"0"
 		"ypos"					"2"
 		"zpos"					"0"
 		"wide"					"f0"
-		"tall"					"11"	
+		"tall"					"11"
 		"visible"				"1"
 		"enabled"				"1"
 		"bgcolor_override"		"BlackLightTransparent"
 		"scaleImage"			"1"
-		
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains"
 		{
 			"zpos"				"3"
@@ -99,7 +99,7 @@
 			"ypos"				"0"
 		}
 	}
-	
+
 	"HomeCPIcon"
 	{
 		"ControlName"			"ImagePanel"
@@ -116,10 +116,10 @@
 		"tabPosition"			"0"
 		"labelText"				""
 		"image"					"../vgui/replay/thumbnails/panels/Panel_Blue"
-		"scaleImage"			"1"	
-		
+		"scaleImage"			"1"
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains_bottom"
 		{
 			"ypos"				"0"
@@ -133,7 +133,7 @@
 			"image"				"../vgui/replay/thumbnails/panels/Panel_Blue"
 		}
 	}
-	
+
 	"EndCPIcon"
 	{
 		"ControlName"			"ImagePanel"
@@ -150,10 +150,10 @@
 		"tabPosition"			"0"
 		"labelText"				""
 		"image"					"../vgui/replay/thumbnails/panels/Panel_Red"
-		"scaleImage"			"1"	
-		
+		"scaleImage"			"1"
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains_bottom"
 		{
 			"ypos"				"0"
@@ -167,13 +167,13 @@
 			"image"				"../vgui/replay/thumbnails/panels/Panel_Red"
 		}
 	}
-	
+
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"SimpleControlPointTemplate"	
+		"fieldName"				"SimpleControlPointTemplate"
 		"xpos"					"0"
-		"ypos"					"2"		
+		"ypos"					"2"
 		"zpos"					"1"
 		"wide"					"2"
 		"tall"					"11"
@@ -184,10 +184,10 @@
 		"tabPosition"			"0"
 		"labelText"				""
 		"image"					"../hud/cart_point_neutral"
-		"scaleImage"			"1"	
-		
+		"scaleImage"			"1"
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains"
 		{
 			"wide"				"0"
@@ -213,19 +213,19 @@
 		"tall"					"30"
 		"visible"				"1"
 		"enabled"				"1"
-		
+
 		"proportionaltoparent"	"1"
-		
+
 		"if_multiple_trains"
 		{
 			"zpos"				"8"
 		}
-		
+
 		"Cart"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"			"Cart"	
-			"xpos"				"296"			
+			"fieldName"			"Cart"
+			"xpos"				"296"
 			"ypos"				"2"
 			"zpos"				"25"
 			"wide"				"4"
@@ -238,31 +238,31 @@
 			"labelText"			""
 			"fillcolor"			"BlueLight"
 			"scaleImage"		"1"
-			
+
 			"proportionaltoparent"	"1"
-			
+
 			"if_multiple_trains_red"
 			{
-				
+
 				"fillcolor"		"RedLight"
 			}
-			
+
 			"if_multiple_trains_top"
 			{
 				"ypos"			"2"
 			}
-			
+
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"0"
 			}
 		}
-		
+
 		"Cart2"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"			"Cart2"
-			"xpos"				"0"			
+			"xpos"				"0"
 			"ypos"				"2"
 			"zpos"				"23"
 			"wide"				"300"
@@ -276,28 +276,28 @@
 			"labelText"			""
 			"fillcolor"			"BlueLight"
 			"scaleImage"		"1"
-			
+
 			"proportionaltoparent"	"1"
-			
+
 			"if_multiple_trains_red"
 			{
-				
+
 				"fillcolor"		"RedLight"
 			}
-			
+
 			"if_multiple_trains_top"
 			{
 				"ypos"			"2"
 			}
-			
+
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"0"
 			}
 		}
-		
+
 		"CapNumPlayers"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapNumPlayers"
 			"font"				"Size 10"
@@ -319,18 +319,18 @@
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
 			"textinsetx"				"0"
-			
+
 			"if_multiple_trains_bottom"
 			{
 				"ypos"		"0"
-			}	
+			}
 		}
-		
+
 		"RecedeTime"
-		{	
+		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"RecedeTime"	
-			"font"				"Size 10"		
+			"fieldName"			"RecedeTime"
+			"font"				"Size 10"
 			"xpos"				"284"
 			"ypos"				"2"
 			"zpos"				"30"
@@ -349,17 +349,17 @@
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
 			"textinsetx"				"0"
-			
+
 			"if_multiple_trains_bottom"
 			{
 				"ypos"		"0"
 			}
 		}
-		
+
 		"Speed_Backwards"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"			"Speed_Backwards"	
+			"fieldName"			"Speed_Backwards"
 			"xpos"				"293"
 			"ypos"				"4"
 			"zpos"				"30"
@@ -373,46 +373,46 @@
 			"labelText"			""
 			"image"				"../vgui/replay/thumbnails/payload/cart_arrow_left"
 			"scaleImage"		"1"
-			
+
 			"if_multiple_trains_top"
 			{
 				"ypos"			"4"
-			}	
-			
+			}
+
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"2"
-			}	
+			}
 		}
-		
+
 		"EscortItemImage"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"EscortItemImage"	
+			"fieldName"		"EscortItemImage"
 			"xpos"			"9999"
 		}
 		"EscortItemImageBottom"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"EscortItemImageBottom"	
+			"fieldName"		"EscortItemImageBottom"
 			"xpos"			"9999"
 		}
 		"EscortItemImageAlert"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"EscortItemImageAlert"	
+			"fieldName"		"EscortItemImageAlert"
 			"xpos"			"9999"
 		}
 		"CapPlayerImage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"9999"
 		}
 		"Blocked"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"Blocked"	
+			"fieldName"		"Blocked"
 			"xpos"			"9999"
 		}
 		"EscortTeardrop"

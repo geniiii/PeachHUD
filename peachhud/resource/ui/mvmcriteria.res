@@ -334,7 +334,7 @@
 			"zpos"							"0"
 			"wide"							"120"
 			"tall"							"60"
-			
+
 			"pin_to_sibling"				"SquadSurplusCheckButton"
 			"pin_corner_to_sibling"			"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"			"PIN_CENTER_RIGHT"
@@ -451,7 +451,7 @@
 			"wide"							"165"
 			"tall"							"60"
 			"proportionaltoparent"			"1"
-			
+
 			"pin_to_sibling"				"MissingTicketsAlertImage"
 			"pin_corner_to_sibling"			"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"			"PIN_CENTER_RIGHT"
@@ -541,13 +541,13 @@
 			"command" 						"mann_up_now"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"0"
-		
+
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
-			
+
 			"border_default"				"RedTransparent50"
 			"border_armed"					"OrangeTransparent50"
 		}

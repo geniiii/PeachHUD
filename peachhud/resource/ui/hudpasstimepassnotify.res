@@ -96,7 +96,7 @@ Resource/UI/HudPasstimePassNotify.res
 			"textAlignment"	"center"
 			"labelText"		"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
 			"fgcolor_override"	"BlueLight"
-		}	
+		}
 	}
 
 	PassLockIndicator
@@ -112,7 +112,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../passtime/hud/passtime_ball_reticle_incomingpass"
-		
+
 		"pin_to_sibling"		"TextBox"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
@@ -131,7 +131,7 @@ Resource/UI/HudPasstimePassNotify.res
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../passtime/hud/passtime_pass_to_me_prompt"
-		
+
 		"pin_to_sibling"		"TextBox"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"0"

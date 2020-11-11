@@ -12,9 +12,9 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../hud/health_over_bg"
-		"scaleImage"				"1"	
+		"scaleImage"				"1"
 	}
-	
+
 	"PlayerStatusHealthValueFreeze"
 	{
 		"ControlName"				"Label"
@@ -26,12 +26,12 @@
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
-		"textAlignment"				"center"	
+		"textAlignment"				"center"
 		"labeltext"					"%Health%"
 		"font"						"Size 28"
 		"fgcolor_override"  		"Health"
 	}
-	
+
 	"PlayerStatusHealthValueFreezeShadow"
 	{
 		"ControlName"				"Label"
@@ -43,26 +43,26 @@
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
-		"textAlignment"				"center"	
+		"textAlignment"				"center"
 		"labeltext"					"%Health%"
 		"font"						"Size 28"
 		"fgcolor_override"			"Shadows"
-		
+
 		"pin_to_sibling"			"PlayerStatusHealthValueFreeze"
 	}
-	
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PlayerStatusHealthImage"
 		"xpos"						"9999"
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PlayerStatusHealthImageBG"
 		"xpos"						"9999"
-	}	
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"				"ImagePanel"

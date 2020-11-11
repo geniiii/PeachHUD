@@ -59,11 +59,11 @@
 		"sound_released"				"UI/buttonclickrelease.wav"
 
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"BlackTransparent50"
 		"border_armed"					"OrangeTransparent50"
 	}
@@ -80,7 +80,7 @@
 		"visible"						"0"
 		"enabled"						"1"
 		"mouseinputenabled"				"1"
-		"eatmouseinput"					"0"	
+		"eatmouseinput"					"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" 			"1"
 	}
@@ -115,11 +115,11 @@
 		"sound_released"				"UI/buttonclickrelease.wav"
 
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"GreenTransparent50"
 		"border_armed"					"OrangeTransparent50"
 	}
@@ -136,7 +136,7 @@
 		"visible"						"0"
 		"enabled"						"1"
 		"mouseinputenabled"				"1"
-		"eatmouseinput"					"0"	
+		"eatmouseinput"					"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" 			"1"
 	}
@@ -171,11 +171,11 @@
 		"sound_released"				"UI/buttonclickrelease.wav"
 
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"GreenTransparent50"
 		"border_armed"					"OrangeTransparent50"
 	}
@@ -210,11 +210,11 @@
 		"sound_released"				"UI/buttonclickrelease.wav"
 
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"BlackTransparent50"
 		"border_armed"					"OrangeTransparent50"
 	}

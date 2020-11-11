@@ -26,7 +26,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"117 107 94 255"
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"			"CAvatarImagePanel"
@@ -39,12 +39,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					""
-		"scaleImage"			"1"	
+		"scaleImage"			"1"
 		"color_outline"			"Black"
 	}
 
 	"AvatarTextLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AvatarTextLabel"
 		"fgcolor"				"White"
@@ -64,7 +64,7 @@
 	}
 
 	"TextLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TextLabel"
 		"fgcolor"				"White"

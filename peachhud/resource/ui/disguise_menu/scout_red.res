@@ -1,7 +1,7 @@
 "Resource/UI/disguise_menu/scout_red.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemBackground"
 		"xpos"					"0"
@@ -15,7 +15,7 @@
 		"paintbackgroundtype"	"3"
 		"bgcolor_override"		"Blank"
 	}
-	
+
 	"TeamColoredBar"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -34,16 +34,16 @@
 		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_White_70"
 		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Red_70"
 		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-		
+
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 12"
@@ -62,12 +62,12 @@
 		"textAlignment"			"center"
 		"dulltext"				"1"
 		"brighttext"			"0"
-		
+
 		"pin_to_sibling"		"ItemNameLabel"
 	}
-	
+
 	"NewNumberLabel"			//THIS HATES TO GET PINNED :(		(This is the concise disguise menu)
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 12"
@@ -87,9 +87,9 @@
 		"dulltext"				"1"
 		"brighttext"			"0"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
 		"font"					"Class Symbols 72"
@@ -108,18 +108,18 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"RedLight"
-		
+
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
-	"ClassIcon"	
+
+	"ClassIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"ClassIcon"
 		"xpos"					"9999"
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"NumberBg"

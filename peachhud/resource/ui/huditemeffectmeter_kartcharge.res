@@ -8,19 +8,19 @@
 		"ypos"					"r45"
 		"tall"					"20"
 	}
-	
+
 	"ItemEffectMeter"
-	{	
+	{
 		"ypos"					"10"
 		"wide"					"75"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ypos"					"12"
 		"wide"					"75"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"

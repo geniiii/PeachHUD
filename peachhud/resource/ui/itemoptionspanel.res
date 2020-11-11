@@ -46,7 +46,7 @@
 			"Default"					"0"
 			"Command"					"particle_use_head_clicked"
 		}
-	
+
 		"HatParticleSlider"
 		{
 			"ControlName"				"CCvarSlider"
@@ -83,16 +83,16 @@
 			"brighttext"				"0"
 			"default"					"1"
 			"Command"					"set_style"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 		}

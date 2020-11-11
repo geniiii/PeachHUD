@@ -10,7 +10,7 @@
 		"wide"						"50"
 		"tall"						"22"
 		"visible"					"1"
-	
+
 		"Background"
 		{
 			"ControlName"			"EditablePanel"
@@ -27,7 +27,7 @@
 			"paintborder"			"1"
 			"border"				"BlueTransparent70"
 		}
-		
+
 		"CountIcon"
 		{
 			"ControlName"			"CExLabel"
@@ -46,7 +46,7 @@
 			"textAlignment"			"center"
 			"fgcolor"				"White"
 		}
-		
+
 		"Count"
 		{
 			"ControlName"			"CExLabel"
@@ -65,7 +65,7 @@
 			"textAlignment"			"center"
 			"fgcolor"				"White"
 		}
-		
+
 		"countshadow"
 		{
 			"ControlName"			"CExLabel"
@@ -74,7 +74,7 @@
 		}
 		"playerimage"
 		{
-			"ControlName"			"ImagePanel"		
+			"ControlName"			"ImagePanel"
 			"fieldName"				"playerimage"
 			"xpos"					"9999"
 		}
@@ -90,7 +90,7 @@
 		"wide"						"50"
 		"tall"						"22"
 		"visible"					"1"
-	
+
 		"Background"
 		{
 			"ControlName"			"EditablePanel"
@@ -107,7 +107,7 @@
 			"paintborder"			"1"
 			"border"				"RedTransparent70"
 		}
-		
+
 		"CountIcon"
 		{
 			"ControlName"			"CExLabel"
@@ -126,7 +126,7 @@
 			"textAlignment"			"center"
 			"fgcolor"				"White"
 		}
-		
+
 		"Count"
 		{
 			"ControlName"			"CExLabel"
@@ -145,7 +145,7 @@
 			"textAlignment"			"center"
 			"fgcolor"				"White"
 		}
-		
+
 		"countshadow"
 		{
 			"ControlName"			"CExLabel"
@@ -154,7 +154,7 @@
 		}
 		"playerimage"
 		{
-			"ControlName"			"ImagePanel"		
+			"ControlName"			"ImagePanel"
 			"fieldName"				"playerimage"
 			"xpos"					"9999"
 		}

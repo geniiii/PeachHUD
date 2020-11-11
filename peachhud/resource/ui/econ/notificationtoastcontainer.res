@@ -15,7 +15,7 @@
 	}
 
 	"HelpTextLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HelpTextLabel"
 		"fgcolor"		"RedLight"

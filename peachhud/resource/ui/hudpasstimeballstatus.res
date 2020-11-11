@@ -1,5 +1,5 @@
 "Resource/UI/HudPasstimeBallStatus.res"
-{	
+{
 	"HudPasstimeBallStatus"
 	{
 		"ControlName"	"EditablePanel"
@@ -47,7 +47,7 @@
 		"textAlignment"	"center"
 		"labelText"		""
 		"fgcolor_override"	"255 235 35 200"
-		
+
 		"pin_to_sibling"		"EventTitleLabel"
 		"pin_corner_to_sibling"	"6"
 		"pin_to_sibling_corner"	"4"
@@ -69,7 +69,7 @@
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
 		"fgcolor_override"	"255 255 255 255"
-		
+
 		"pin_to_sibling"	"EventTitleLabel"
 		"pin_corner_to_sibling"	"4"
 		"pin_to_sibling_corner"	"6"
@@ -78,7 +78,7 @@
 	"ProgressLevelBar"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressLevelBar"	
+		"fieldName"		"ProgressLevelBar"
 		"xpos"			"c-80"
 		"ypos"			"r52"
 		"zpos"			"0"
@@ -90,13 +90,13 @@
 		"image"			"../passtime/hud/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
 	}
-	
-	
+
+
 	"BlueProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
 		// might be padded for npot reasons.
-		
+
 		"ControlName"	"Panel"
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-63"
@@ -108,21 +108,21 @@
 	{
 		// tells the code where the end of the progress bar is since the image
 		// might be padded for npot reasons.
-		
+
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c63"
 		"ypos"			"r33"
 		"visible"		"0"
-	}	
+	}
 
 	"GoalBlue0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue0"	
+		"fieldName"		"GoalBlue0"
 		"xpos"			"c-162"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -132,16 +132,16 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalBlue1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue1"	
+		"fieldName"		"GoalBlue1"
 		"xpos"			"c-132"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -151,16 +151,16 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalBlue2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalBlue2"	
+		"fieldName"		"GoalBlue2"
 		"xpos"			"c-102"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -170,17 +170,17 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 
 	"GoalRed0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"GoalRed0"	
+		"fieldName"		"GoalRed0"
 		"xpos"			"c146"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -190,7 +190,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"GoalRed1"
@@ -199,7 +199,7 @@
 		"fieldName"		"GoalRed1"
 		"xpos"			"c116"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -209,7 +209,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 
@@ -219,7 +219,7 @@
 		"fieldName"		"GoalRed2"
 		"xpos"			"c86"
 		"ypos"			"r72"
-		"zpos"			"1"									
+		"zpos"			"1"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -229,7 +229,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"ProgressBallIcon"
@@ -248,8 +248,8 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ball"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 
 	"ProgressSelfPlayerIcon"
 	{
@@ -266,8 +266,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 
 	"ProgressBallCarrierName"
 	{
@@ -284,7 +284,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"labelText"		"NameOfCarrier"
-		
+
 		"pin_to_sibling"		"ProgressLevelBar"
 		"pin_corner_to_sibling"	"4"
 		"pin_to_sibling_corner"	"6"
@@ -292,7 +292,7 @@
 
 
 
-	"BallPowerCluster" 
+	"BallPowerCluster"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BallPowerCluster"
@@ -308,7 +308,7 @@
 		"BallPowerMeterFrame"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"BallPowerMeterFrame"	
+			"fieldName"		"BallPowerMeterFrame"
 			"xpos"			"c-100"
 			"ypos"			"0"
 			"zpos"			"5"
@@ -320,7 +320,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"image"			"../passtime/hud/passtime_powerball_meter_frame"
-			"scaleImage"	"1"					
+			"scaleImage"	"1"
 		}
 
 		"BallPowerMeterFinalSectionContainer"
@@ -330,7 +330,7 @@
 			// But if you instead change the width of this container, the image is simply
 			// cut off instead of stretched.
 			// Also so that the bar is clipped nicely to the border.
-			
+
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BallPowerMeterFinalSectionContainer"
 			"xpos"			"c-85"
@@ -344,7 +344,7 @@
 			"BallPowerMeterFinalSection"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFinalSection"	
+				"fieldName"		"BallPowerMeterFinalSection"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -356,10 +356,10 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"image"			"white"
-				"scaleImage"	"1"					
+				"scaleImage"	"1"
 			}
 		}
-		
+
 		"BallPowerMeterFillContainer"
 		{
 			// This exists because the bar is filled by changing the width dynamically
@@ -367,7 +367,7 @@
 			// But if you instead change the width of this container, the image is simply
 			// cut off instead of stretched.
 			// Also so that the bar is clipped nicely to the border.
-			
+
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BallPowerMeterFillContainer"
 			"xpos"			"c-85"
@@ -381,7 +381,7 @@
 			"BallPowerMeterFill"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BallPowerMeterFill"	
+				"fieldName"		"BallPowerMeterFill"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -393,7 +393,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"image"			"white"
-				"scaleImage"	"1"					
+				"scaleImage"	"1"
 			}
 		}
 	}

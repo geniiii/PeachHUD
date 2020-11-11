@@ -3,16 +3,16 @@
 "Resource/UI/destroy_menu/dispenser_active.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"		"#TF_Object_Dispenser"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"		"2"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"BuildingIcon"
@@ -23,7 +23,7 @@
 		"tall"					"60"
 		"visible"				"1"
 		"enabled"				"1"
-		"scaleImage"			"1"	
+		"scaleImage"			"1"
 		"icon"					"obj_status_dispenser"
 		"iconColor"				"RedLight"
 		"alpha"					"100"

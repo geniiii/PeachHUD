@@ -82,7 +82,7 @@
 				"tall"					"27"
 				"visible"				"1"
 				"proportionaltoparent"	"1"
-				
+
 				"Slider"
 				{
 					"fgcolor_override"	"WhiteTransparent"

@@ -17,11 +17,11 @@
 
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
-	
+
 		"draw_corner_width"		"5"
-		"draw_corner_height"	"5"	
+		"draw_corner_height"	"5"
 	}
-	
+
 	"WaveCountLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -39,7 +39,7 @@
 		"textAlignment"			"center"
 		"labelText"				"%wave_count%"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -53,14 +53,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-	
+
 		"draw_corner_width"		"8"
-		"draw_corner_height" 	"8"	
+		"draw_corner_height" 	"8"
 	}
-	
+
 	"NewProgressBarBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -75,7 +75,7 @@
 		"enabled"			"1"
 		"fillcolor"			"BlackLightTransparent"
 	}
-	
+
 	"SupportLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -92,13 +92,13 @@
 		"AllCaps"				"1"
 		"textAlignment"			"west"
 		"labelText"				"#TF_MVM_Support"
-		
+
 		if_verbose
 		{
 			"visible"			"1"
-		}		
+		}
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"			"ScalableImagePanel"

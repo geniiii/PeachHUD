@@ -255,16 +255,16 @@
 		"proportionaltoparent"	"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"				"White"
 		"armedFgColor_override"					"White"
 		"depressedFgColor_override"				"White"
-		
+
 		"border_default"						"BlueTransparent70"
 		"border_armed"							"OrangeTransparent70"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -292,14 +292,14 @@
 		"proportionaltoparent"	"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"			"0"
-		
+
 		"defaultFgColor_override"				"White"
 		"armedFgColor_override"					"White"
 		"depressedFgColor_override"				"White"
-		
+
 		"border_default"						"BlueTransparent70"
 		"border_armed"							"OrangeTransparent70"
-	}			
+	}
 }

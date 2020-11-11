@@ -31,7 +31,7 @@
 
 		"pinCorner"							"2"
 		"autoResize"						"1"
-		
+
 		"PartyAnchor"
 		{
 			"ControlName"					"EditablePanel"
@@ -58,7 +58,7 @@
 			"enabled"						"1"
 			"border"						"BlackTransparent50"
 			"proportionaltoparent"			"1"
-			
+
 			"pin_to_sibling" 				"PartyAnchor"
 		}
 
@@ -87,12 +87,12 @@
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
 			"roundedcorners"				"0"
-			
+
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"				"0"
-			
+
 			"FgColor"						"WhiteTransparent"
 			"defaultFgColor_override"		"WhiteTransparent"
 			"armedFgColor_override"			"OrangeLight"
@@ -120,7 +120,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"0"
-			
+
 			"pin_to_sibling"				"ToggleChatButton"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -145,7 +145,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"1"
-			
+
 			"pin_to_sibling"				"PartySlot0"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -170,7 +170,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"2"
-			
+
 			"pin_to_sibling"				"PartySlot1"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -195,7 +195,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"3"
-			
+
 			"pin_to_sibling"				"PartySlot2"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -220,7 +220,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"4"
-			
+
 			"pin_to_sibling"				"PartySlot3"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -245,7 +245,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"5"
-			
+
 			"pin_to_sibling"				"PartySlot4"
 			"pin_corner_to_sibling"			"PIN_TOPLEFT"
 			"pin_to_sibling_corner"			"PIN_TOPRIGHT"
@@ -309,10 +309,10 @@
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
 				"button_activation_type"	"1"
-			
+
 				"paintbackground"			"0"
-				"paintborder"				"0"				
-			}		
+				"paintborder"				"0"
+			}
 
 			"CTFLogoPanel"
 			{
@@ -393,16 +393,16 @@
 				"Command"					"manage_queues"
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
-			
+
 				"paintbackground"			"0"
-		
+
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
-				
+
 				"border_default"			"BlueTransparent70"
 				"border_armed"				"OrangeTransparent70"
-			}		
+			}
 
 			"CloseButton"
 			{
@@ -429,16 +429,16 @@
 				"Command"					"leave_queue"
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
-			
+
 				"paintbackground"			"0"
-		
+
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
-				
+
 				"border_default"			"BlueTransparent70"
 				"border_armed"				"OrangeTransparent70"
-			}		
+			}
 		}
 
 		"JoinPartyLobbyContainer"
@@ -492,7 +492,7 @@
 				"labelText"					"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"		"1"
 				"mouseinputenabled"			"0"
-			}		
+			}
 
 			"JoinNowButton"
 			{
@@ -509,7 +509,7 @@
 					"xpos"					"cs-0.5"
 					"wide"					"150"
 				}
-				
+
 				"autoResize"				"0"
 				"pinCorner"					"3"
 				"visible"					"1"
@@ -529,18 +529,18 @@
 
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"			"0"
-		
+
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
-				
+
 				"border_default"			"GreenTransparent70"
 				"border_armed"				"OrangeTransparent70"
 			}
 		}
-		
+
 		"DashboardAnchor"
 		{
 			"ControlName"					"EditablePanel"
@@ -587,25 +587,25 @@
 			"FgColor" 						"WhiteTransparent"
 			"defaultFgColor_override" 		"WhiteTransparent"
 			"armedFgColor_override" 		"WhiteTransparent"
-			
+
 			"BgColor_override" 				"70 151 108 255"
 			"defaultBgColor_override" 		"70 151 108 255"
 			"armedBgColor_override" 		"OrangeLight"
-			
+
 			"pin_to_sibling" 				"DashboardAnchor"
 			"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
 		/////////INVISIBLE//////////
-		
+
 		"QuitButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -634,13 +634,13 @@
 			"RoundedCorners"				"0"
 
 			"paintbackground"				"0"
-		
+
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"border_default"				""
 			"border_armed"					""
-			
+
 			"defaultFgColor_override"		""
 			"armedFgColor_override"			""
 			"depressedFgColor_override" 	""
@@ -680,13 +680,13 @@
 			"RoundedCorners"				"0"
 
 			"paintbackground"				"0"
-		
+
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
+
 			"border_default"				""
 			"border_armed"					""
-			
+
 			"defaultFgColor_override"		""
 			"armedFgColor_override"			""
 			"depressedFgColor_override"	 	""
@@ -745,7 +745,7 @@
 				"xpos"						"9999"
 			}
 		}
-		
+
 		"Gradient"
 		{
 			"ControlName"					"ImagePanel"

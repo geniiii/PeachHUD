@@ -1,5 +1,5 @@
 "Resource/UI/UpgradeBuyPanel.res"
-{	
+{
 	"UpgradeBuyPanel"
 	{
 		"ControlName"						"EditablePanel"
@@ -7,16 +7,16 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"wide"								"155"
-		"tall"								"45"		
+		"tall"								"45"
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		
+
 		"upgradebutton_xpos"				"37"
 		"upgradebutton_ypos"				"26"
-		
+
 		"skilltreebuttons_kv"
 		{
 			"wide"							"16"
@@ -24,8 +24,8 @@
 			"textAlignment"					"center"
 			"font"							"Size 11"
 			"image"							"pve/upgrade_unowned"
-			"scaleImage"					"1"	
-			
+			"scaleImage"					"1"
+
 			"defaultFgColor_override"		"White"
 			"defaultBgColor_override"		"Blank"
 			"armedFgColor_override"			"OrangeLight"
@@ -37,7 +37,7 @@
 			"disabledfgcolor2_override"		"White"
 		}
 	}
-	
+
 	"InnerPanelRim"
 	{
 		"ControlName"						"Panel"
@@ -51,12 +51,12 @@
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		
+
 		"PaintBackground" 					"0"
 		"PaintBorder" 						"1"
 		"border" 							"BlackTransparent50"
 	}
-	
+
 	"IconBorder"
 	{
 		"ControlName"						"Panel"
@@ -70,11 +70,11 @@
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		
+
 		"PaintBackgroundType" 				"0"
 		"bgcolor_override"					"White"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"						"ImagePanel"
@@ -89,12 +89,12 @@
 		"visible"							"1"
 		"enabled"							"0"
 		"tabPosition"						"0"
-		
-		"scaleImage"						"1"	
+
+		"scaleImage"						"1"
 
 		"image"								"pve/buy_disabled"
 	}
-	
+
 	"PriceLabel"
 	{
 		"ControlName"						"Label"
@@ -109,13 +109,13 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		
+
 		"labelText"							""
 		"textAlignment"						"center"
 		"font"								"Size 15"
 		"fgcolor_override"					"White"
 	}
-	
+
 	"ShortDescriptionLabel"
 	{
 		"ControlName"						"ShortDescriptionLabel"
@@ -130,13 +130,13 @@
 		"enabled"							"1"
 		"tabPosition"						"0"
 		"wrap"								"1"
-		
+
 		"labelText"							""
 		"textAlignment"						"center-west"
 		"font"								"Size 11"
 		"fgcolor_override"					"White"
 	}
-	
+
 	"BuySellBG"
 	{
 		"ControlName"						"Panel"
@@ -150,11 +150,11 @@
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		
+
 		"PaintBackgroundType" 				"2"
 		"bgcolor_override"					"Blank"
 	}
-	
+
 	"IncrementButton"
 	{
 		"ControlName"						"CImageButton"
@@ -169,15 +169,15 @@
 		"visible"							"1"
 		"enabled"							"0"
 		"tabPosition"						"0"
-		
+
 		"labelText"							""
-		"scaleImage"						"1"	
+		"scaleImage"						"1"
 
 		"activeimage"						"pve/buy_disabled"
 		"inactiveimage"						"pve/buy_disabled"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override"			"White"
 		"defaultBgColor_override"			"Blank"
 		"armedFgColor_override"				"OrangeLight"
@@ -188,7 +188,7 @@
 		"selectedBgColor_override"			"Blank"
 		"disabledfgcolor2_override"			"White"
 	}
-	
+
 	"DecrementButton"
 	{
 		"ControlName"						"CImageButton"
@@ -203,15 +203,15 @@
 		"visible"							"1"
 		"enabled"							"0"
 		"tabPosition"						"0"
-		
+
 		"labelText"							""
-		"scaleImage"						"1"	
+		"scaleImage"						"1"
 
 		"activeimage"						"pve/sell_disabled"
 		"inactiveimage"						"pve/sell_disabled"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override"			"White"
 		"defaultBgColor_override"			"Blank"
 		"armedFgColor_override"				"OrangeLight"

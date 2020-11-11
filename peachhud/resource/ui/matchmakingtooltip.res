@@ -13,7 +13,7 @@
 		"PaintBackgroundType"		"2"
 		"border"					"BlackTransparent70"
 		"mouseinputenabled"			"0"
-		
+
 		"TipLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -51,5 +51,5 @@
 			"auto_tall_tocontents"	"1"
 			"wrap"					"1"
 		}
-	}	
+	}
 }

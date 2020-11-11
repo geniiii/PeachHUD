@@ -8,7 +8,7 @@
 		"ypos"								"8"
 		"zpos"								"20000"
 	}
-	
+
 	"store_panel"
 	{
 		"ControlName"						"EditablePanel"
@@ -27,7 +27,7 @@
 		"bgcolor_override"					"Blank"
 		"infocus_bgcolor_override"			"Blank"
 		"outoffocus_bgcolor_override"		"Blank"
-		
+
 		"title"								"#StoreTitle"
 		"title_font"						""
 		"titletextinsetX"					"40"
@@ -35,11 +35,11 @@
 		"titlebarfgcolor_override"			"Blank"
 		"titlebardisabledfgcolor_override"	"Blank"
 		"titlebarbgcolor_override"			"Blank"
-		
+
 		"clientinsetx_override"				"0"
 		"sheetinset_bottom"					"40"
 	}
-	
+
 	"Mountain"
 	{
 		"ControlName"						"ImagePanel"
@@ -54,7 +54,7 @@
 		"image"								"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"						"1"
 	}
-	
+
 	"TopWhiteBar"
 	{
 		"ControlName"						"EditablePanel"
@@ -68,7 +68,7 @@
 		"enabled"							"1"
 		"border"							"BlackTransparent50"
 	}
-	
+
 	"BottomWhiteBar"
 	{
 		"ControlName"						"EditablePanel"
@@ -82,7 +82,7 @@
 		"enabled"							"1"
 		"border"							"BlackTransparentReverse50"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"						"EditablePanel"
@@ -94,28 +94,28 @@
 		"tabheight"							"18"
 		"transition_time" 					"0"
 		"yoffset"							"17"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"					"ImagePanel"
 			"fieldName"						"HeaderLine"
 			"xpos"							"9999"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"					"10"
 			"textinsety"					"2"
 			"font"							"Size 14"
 			"selectedcolor"					"White"
-			"unselectedcolor"				"White"	
+			"unselectedcolor"				"White"
 			"defaultBgColor_override"		"Blank"
 			"paintbackground"				"0"
 			"activeborder_override"			"BlueTransparent70"
 			"normalborder_override" 		"BlueTransparent70"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"						"CExButton"
@@ -138,16 +138,16 @@
 		"brighttext"						"0"
 		"default"							"0"
 		"Command"							"close"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground" 					"0"
-		
+
 		"border_default"					"BlueTransparent70"
 		"border_armed"						"OrangeTransparent70"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"						"CExButton"
@@ -171,16 +171,16 @@
 		"brighttext"						"0"
 		"default"							"0"
 		"Command"							"checkout"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground" 					"0"
-		
+
 		"border_default"					"BlueTransparent70"
 		"border_armed"						"OrangeTransparent70"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"						"CNotificationsPresentPanel"
@@ -193,7 +193,7 @@
 		"visible"							"0"
 		"enabled"							"1"
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"						"CArmoryPanel"
@@ -237,12 +237,12 @@
 		"labelText"							"Support Map Makers"
 		"visible"							"0"
 		"fgcolor"							"White"
-		
+
 		"pin_to_sibling" 					"SupportCommunityMapMakersCheckButton"
 		"pin_corner_to_sibling" 			"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"						"ImagePanel"

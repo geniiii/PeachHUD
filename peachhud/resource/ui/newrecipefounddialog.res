@@ -13,9 +13,9 @@
 		"paintbackground"			"0"
 		"border"					"GrayBluBorder"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"				"Label"
 		"fieldName"					"TitleLabel"
 		"font"						"Size 24"
@@ -50,13 +50,13 @@
 		"noitem_textcolor"			"Gray"
 		"PaintBackgroundType"		"2"
 		"paintborder"				"0"
-		
+
 		"text_ypos"					"20"
 		"text_center"				"1"
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-		
+
 		"attriblabel"
 		{
 			"font"					"ItemFontAttribLarge"
@@ -75,7 +75,7 @@
 			"centerwrap"			"1"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"				"CExButton"
@@ -97,14 +97,14 @@
 		"brighttext"				"0"
 		"default"					"1"
 		"Command"					"close"
-		
+
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 

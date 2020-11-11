@@ -10,9 +10,9 @@
 		"wide"					"f0"
 		"tall"					"480"
 		"visible"				"1"
-		"enabled"				"1"		
+		"enabled"				"1"
 	}
-	
+
 	"PlayerStatusClassImage"
 	{
 		"ControlName"			"CTFClassImage"
@@ -28,25 +28,25 @@
 		"scaleImage"			"1"
 		"alpha"					"0"
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"			"CTFPlayerModelPanel"
 		"fieldName"				"classmodelpanel"
 		"xpos"					"0"
 		"ypos"					"r120"
-		"zpos"					"2"		
+		"zpos"					"2"
 		"wide"					"0"
 		"tall"					"140"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		
+
 		"render_texture"		"0"
 		"fov"					"27"
 		"allow_rot"				"1"
-		
+
 		"Model"
 		{
 			"force_pos"			"1"
@@ -61,7 +61,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight"			"1"
-		
+
 			"modelname"			""
 		}
 
@@ -162,10 +162,10 @@
 			}
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	"ClassModelPanelBG"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -177,31 +177,31 @@
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"PlayerStatusSpyImage"
 		"xpos"					"9999"
-	}	
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"PlayerStatusSpyOutlineImage"
 		"xpos"					"9999"
-	}		
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"	
+		"xpos"			"9"
 		"ypos"			"r60"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/character_red_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 		"Alpha"				"0"
 	}
-	
+
 }

@@ -14,7 +14,7 @@
 		"delta_item_font_big"			"Damage Numbers Regular"
 		"delta_item_font_big_minmode"	"Damage Numbers Minmode"
 	}
-	
+
 	"DamageAccountValue"
 	{
 		"ControlName"					"CExLabel"
@@ -31,7 +31,7 @@
 		"fgcolor"						"Last Damage Done"
 		"font"							"Size 18"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"					"CExLabel"
@@ -41,13 +41,13 @@
 		"zpos"							"1"
 		"wide"							"100"
 		"tall"							"25"
-		"visible"						"1" 
+		"visible"						"1"
 		"enabled"						"1"
 		"labelText"						"%metal%"
 		"textAlignment"					"center"
 		"fgcolor"						"Shadows"
 		"font"							"Size 18"
-		
+
 		"pin_to_sibling"				"DamageAccountValue"
 	}
 }

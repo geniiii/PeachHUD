@@ -10,7 +10,7 @@
 		"enabled"			"1"
 		"image"				"../hud/health_color"
 	}
-	
+
 	///CONTROL POINT ICONS///
 	"CPCapMask"
 	{
@@ -120,7 +120,7 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-	
+
 	///CART POINT ICONS///
 	"CartPointBlu"
 	{
@@ -194,7 +194,7 @@
 		"enabled"			"1"
 		"image"				"../hud/cart_home_red"
 	}
-	
+
 	///CAPTURE THE FLAG ICONS///
 	"CTFCompassBlue"
 	{

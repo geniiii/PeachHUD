@@ -12,7 +12,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 	}
-	
+
 	"WhiteBackground"
 	{
 		"ControlName"			"EditablePanel"
@@ -26,7 +26,7 @@
 		"enabled"				"1"
 		"border"				"BlackTransparent70"
 	}
-	
+
 	"BlueScoreBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -39,12 +39,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"border"				"BlackTransparent70"
-		
+
 		"pin_to_sibling"		"WhiteBackground"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"BlueBar"
 	{
 		"ControlName"			"EditablePanel"
@@ -57,10 +57,10 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"border"				"BlueTransparent70"
-		
+
 		"pin_to_sibling"		"BlueScoreBG"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"			"CExLabel"
@@ -77,12 +77,12 @@
 		"labelText"				"%bluescore%"
 		"font"					"Size 22"
 		"fgcolor"				"WhiteTransparent"
-		
+
 		"pin_to_sibling"		"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	
+
 	"RedScoreBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -95,12 +95,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"border"				"BlackTransparent70"
-		
+
 		"pin_to_sibling"		"WhiteBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"RedBar"
 	{
 		"ControlName"			"EditablePanel"
@@ -113,10 +113,10 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"border"				"RedTransparent70"
-		
+
 		"pin_to_sibling"		"RedScoreBG"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"			"CExLabel"
@@ -138,7 +138,7 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	
+
 	"PlayingToCluster"
 	{
 		"ControlName"			"EditablePanel"
@@ -169,8 +169,8 @@
 			"brighttext"		"0"
 			"font"				"Size 10"
 			"fgcolor"			"White"
-		}	
-		
+		}
+
 		"PlayingToBG"
 		{
 			"ControlName"		"CTFImagePanel"
@@ -178,8 +178,8 @@
 			"xpos"				"9999"
 		}
 	}
-	
-	
+
+
 	"LeftSideBG"
 	{
 		"ControlName"			"ImagePanel"

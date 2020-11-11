@@ -54,7 +54,7 @@
 			"centerwrap"		   	"1"
 			"AllCaps"				"1"
 		}
-		
+
 		"ImageFrame"
 		{
 			"ControlName"			"EditablePanel"
@@ -67,7 +67,7 @@
 			"enabled"				"1"
 			"border"				"NoBorder"
 		}
-		
+
 		// Parented to ImageFrame in code.
 		"Image"
 		{
@@ -82,7 +82,7 @@
 			"tileImage"				"0"
 			"scaleImage"			"1"
 			"image"					""
-		}	
+		}
 	}
 
 	"StartButton"
@@ -107,12 +107,12 @@
 		"brighttext"				"0"
 		"Command"					"%startcommand%"
 		"AllCaps"					"1"
-		
+
 		"paintbackground"			"0"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
 

@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
 	"TitleBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"TitleBackground"
 		"xpos"					"-5"
@@ -15,7 +15,7 @@
 		"paintbackgroundtype"	"3"
 		"bgcolor_override"		"BlueLight"
 	}
-	
+
 	"TeamColoredBar"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -34,16 +34,16 @@
 		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_Black_70"
 		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Black_70"
 		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Black_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-		
+
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
 		"font"					"Size 16"
@@ -64,7 +64,7 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"TitleBackground"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -75,8 +75,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"1"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -87,8 +87,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"1"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -99,8 +99,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"1"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -112,7 +112,7 @@
 		"tall"					"18"
 		"visible"				"1"
 	}
-	
+
 	"already_built_item_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -123,8 +123,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"already_built_item_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -135,8 +135,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"already_built_item_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -147,8 +147,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"already_built_item_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -160,7 +160,7 @@
 		"tall"					"18"
 		"visible"				"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -171,8 +171,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"cant_afford_item_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -183,8 +183,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"cant_afford_item_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -195,8 +195,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"cant_afford_item_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -219,8 +219,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -231,8 +231,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -243,8 +243,8 @@
 		"wide"					"120"
 		"tall"					"18"
 		"visible"				"0"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -256,8 +256,8 @@
 		"tall"					"18"
 		"visible"				"0"
 	}
-	
-	"MainBackground"	
+
+	"MainBackground"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"MainBackground"
@@ -269,26 +269,26 @@
 		"fieldName"				"Divider"
 		"xpos"					"9999"
 	}
-	"BuildIcon"	
+	"BuildIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"BuildIcon"
 		"xpos"					"9999"
 	}
-	"BuildIconShadow"	
+	"BuildIconShadow"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"BuildIconShadow"
 		"xpos"					"9999"
 	}
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabelDropshadow"
 		"xpos"					"9999"
 	}
 	"CancelLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CancelLabel"
 		"xpos"					"9999"

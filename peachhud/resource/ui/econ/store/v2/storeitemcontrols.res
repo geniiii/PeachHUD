@@ -36,13 +36,13 @@
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		"Command"							"addtocart"
-		
+
 		"paintbackground"					"0"
-		
+
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
 		"depressedFgColor_override"			"White"
-		
+
 		"border_default"					"GreenTransparent70"
 		"border_armed"						"OrangeTransparent70"
 	}

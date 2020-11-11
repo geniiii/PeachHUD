@@ -15,7 +15,7 @@
 		"tabPosition"						"0"
 		"settitlebarvisible"				"0"
 	}
-	
+
 	"TextWindowAnchor"						//Moves the text window as a whole
 	{
 		"ControlName"						"EditablePanel"
@@ -27,7 +27,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 	}
-	
+
 	"TextWindowFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
@@ -40,10 +40,10 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"BlackTransparent70"
-		
+
 		"pin_to_sibling" 					"TextWindowAnchor"
 	}
-	
+
 	"TFMessageTitle"
 	{
 		"ControlName"						"CExLabel"
@@ -83,12 +83,12 @@
 		"paintborder"						"0"
 		"textAlignment"						"west"
 		"fgcolor"							"WhiteTransparent"
-		
+
 		"pin_to_sibling" 					"TextWindowFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"						"CExButton"
@@ -111,17 +111,17 @@
 		"command"							"okay"
 		"default"							"1"
 		"font"								"Size 24"
-		
+
 		"paintbackground"					"0"
-		
+
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling" 					"TextWindowFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"okBG"
 	{
 		"ControlName"						"EditablePanel"
@@ -134,10 +134,10 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"BlackTransparent50"
-		
+
 		"pin_to_sibling" 					"ok"
 	}
-	
+
 	"HTMLMessage"
 	{
 		"ControlName"						"HTML"

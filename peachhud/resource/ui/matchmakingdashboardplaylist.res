@@ -31,10 +31,10 @@
 		"font"							"Size 24"
 		"fgcolor_override"				"White"
 		"AllCaps"						"1"
-		
+
 		"mouseinputenabled"				"0"
 	}
-	
+
 	"Separator"
 	{
 		"ControlName"					"EditablePanel"
@@ -45,7 +45,7 @@
 		"wide"							"1"
 		"tall"							"40"
 		"bgcolor_override"				"White"
-		
+
 		"pin_to_sibling"				"Title"
 		"pin_corner_to_sibling"			"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"			"PIN_CENTER_RIGHT"
@@ -79,7 +79,7 @@
 		"proportionaltoparent"			"1"
 		"mouseinputenabled"				"0"
 	}
-	
+
 	"DashboardDimmer"
 	{
 		"ControlName"					"EditablePanel"

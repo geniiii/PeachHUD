@@ -15,13 +15,13 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"								"1"
-		
+
 		"consume_mode"
 		{
 			"wide"									"0"
 		}
 	}
-	
+
 	"WeaponBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,12 +35,12 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 		"border"									"BlackTransparent30"
-		
+
 		"fixed_item"
 		{
 			"visible"								"0"
 		}
-		
+
 		"consume_mode"
 		{
 			"xpos"									"10"
@@ -50,7 +50,7 @@
 	}
 
 	"ItemName"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"ItemName"
 		"xpos"										"cs-0.5"
@@ -118,7 +118,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 		}
 
@@ -130,7 +130,7 @@
 				"color"								"1 1 1"
 				"direction"							"0 0 -1"
 			}
-			
+
 			"spot light"
 			{
 				"name"								"spot"
@@ -143,7 +143,7 @@
 				"maxDistance"						"1000"
 				"exponent"							"25"
 			}
-			
+
 			"point light"
 			{
 				"name"								"point"
@@ -169,14 +169,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"auto_scale"								"1"
 		"auto_layout"								"1"
 		"selected_button_default"					"0"
 		"auto_layout_vertical_buffer"				"-4"
 		"display_vertically"						"0"
 		"align"										"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"									"19"
@@ -189,29 +189,29 @@
 			"labelText"								""
 			"textAlignment"							"south-west"
 			"scaleImage"							"1"
-			
+
 			"fgcolor"								"TanDark"
 			"defaultFgColor_override" 				"TanDark"
 			"armedFgColor_override" 				"TanDark"
 			"depressedFgColor_override" 			"TanDark"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"sound_armed"							"UI/buttonrollover.wav"
-			
+
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
 			"defaultBgColor_Override"				"0 0 0 255"
-			
+
 			"paintborder"							"0"
-			
+
 			"image_drawcolor"						"255 255 255 77"
 			"image_armedcolor"						"255 255 255 128"
 			"image_selectedcolor"					"255 255 255 255"
-			
+
 			"stayselectedonclick"					"1"
 			"keyboardinputenabled"					"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -224,9 +224,9 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -235,11 +235,11 @@
 				"image_default"						"store/store_redteam"
 				"image_armed"						"store/store_redteam"
 				"image_selected"					"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"							"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -247,11 +247,11 @@
 				"image_default"						"store/store_blueteam"
 				"image_armed"						"store/store_blueteam"
 				"image_selected"					"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"							"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
@@ -270,7 +270,7 @@
 		"proportionaltoparent"						"1"
 
 		"visible"									"0"
-		
+
 		"pin_to_sibling" 							"WeaponBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
@@ -315,16 +315,16 @@
 			"Command"								"debug_menu"
 			"proportionaltoparent" 					"1"
 			"actionsignallevel"						"2"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"0 0 0 0"
 			"armedFgColor_override" 				"200 80 60 255"
 			"depressedFgColor_override" 			"46 43 42 255"
-			
+
 			"image_drawcolor"						"TanDark"
 			"image_armedcolor"						"200 80 60 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -338,9 +338,9 @@
 				"enabled"							"1"
 				"image"								"glyph_workshop_edit"
 				"scaleImage"						"1"
-			}				
+			}
 		} // Debug button
-		
+
 		"PaintkitLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -365,7 +365,7 @@
 				"visible"							"0"
 			}
 		}
-		
+
 		"ComboBoxValidPaintkits"
 		{
 			"ControlName"							"ComboBox"
@@ -394,7 +394,7 @@
 			{
 				"visible"							"0"
 			}
-		
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
 			"disabledFgColor_override" 				"White"
@@ -403,7 +403,7 @@
 			"selectionTextColor_override" 			"White"
 			"defaultSelectionBG2Color_override"		"Blank"
 		}
-		
+
 		"ValidPaintkitsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -416,29 +416,29 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"BlueTransparent70"
-			
+
 			"pin_to_sibling" 						"ComboBoxValidPaintkits"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
-			
+
 			"fixed_paintkit"
 			{
 				"visible"							"0"
 			}
 		}
-		
+
 		"WearSlider"
 		{
 			"ControlName"							"Slider"
 			"fieldName"								"WearSlider"
 			"xpos"									"172"
 			"ypos"									"2"
-			
+
 			"fixed_item"
 			{
 				"ypos"								"30"
 			}
-			
+
 			"zpos"									"100"
 			"wide"									"204"
 			"tall"									"22"
@@ -455,7 +455,7 @@
 				"visible"							"0"
 			}
 		}
-		
+
 		"SliderBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -468,11 +468,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"BlackTransparent50"
-			
+
 			"pin_to_sibling" 						"WearSlider"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
-			
+
 			"fixed_paintkit"
 			{
 				"visible"							"0"
@@ -487,12 +487,12 @@
 			"wrap"									"0"
 			"xpos"									"3"
 			"ypos"									"24"
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"10"
 			}
-			
+
 			"zpos"									"100"
 			"wide"									"160"
 			"tall"									"26"
@@ -514,7 +514,7 @@
 			}
 
 			"proportionaltoparent"					"1"
-		
+
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
 			"disabledFgColor_override" 				"White"
@@ -522,12 +522,12 @@
 			"selectionColor_override" 				"Blank"
 			"selectionTextColor_override" 			"White"
 			"defaultSelectionBG2Color_override"		"Blank"
-			
+
 			"consume_mode"
 			{
 				"xpos"								"110"
 				"tall"								"18"
-				
+
 				"fgcolor_override"					"White"
 				"bgcolor_override"					"BlackLightTransparent"
 				"disabledFgColor_override" 			"White"
@@ -537,7 +537,7 @@
 				"defaultSelectionBG2Color_override"	"BlackLightTransparent"
 			}
 		}
-		
+
 		"ValidItemsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -550,11 +550,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"BlueTransparent70"
-			
+
 			"pin_to_sibling" 						"ComboBoxValidItems"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
-			
+
 			"fixed_paintkit"
 			{
 				"visible"							"0"
@@ -570,12 +570,12 @@
 			"textAlignment"							"west"
 			"xpos"									"8"
 			"ypos"									"30"
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"10"
 			}
-			
+
 			"wide"									"80"
 			"tall"									"15"
 			"autoResize"							"0"
@@ -600,12 +600,12 @@
 			"textAlignment"							"west"
 			"xpos"									"8"
 			"ypos"									"50"
-			
+
 			"fixed_item"
 			{
 				"ypos"								"30"
 			}
-			
+
 			"wide"									"80"
 			"tall"									"15"
 			"autoResize"							"0"
@@ -627,12 +627,12 @@
 			"fieldName"								"NewSeedButton"
 			"xpos"									"8"
 			"ypos"									"60"
-			
+
 			"fixed_item"
 			{
 				"ypos"								"50"
 			}
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"30"
@@ -657,32 +657,32 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground" 						"0"
 			"paintborder" 							"1"
-			
+
 			"border_default"						"BlueTransparent70"
 			"border_armed"							"OrangeTransparent70"
 		}
-		
+
 		"NewSeedButtonFix"
 		{
 			"ControlName"							"CExButton"
 			"fieldName"								"NewSeedButtonFix"
 			"xpos"									"164"
 			"ypos"									"24"
-			
+
 			"consume_mode"
 			{
 				"xpos"								"80"
 				"ypos"								"33"
 			}
-			
+
 			"fixed_item"
 			{
 				"ypos"								"50"
 			}
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"30"
@@ -709,36 +709,36 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground" 						"0"
-			
+
 			"border_default"						"BlueTransparent70"
 			"border_armed"							"OrangeTransparent70"
 		}
-		
+
 		"SeedTextEntry"
 		{
 			"ControlName"							"TextEntry"
 			"fieldName"								"SeedTextEntry"
 			"xpos"									"225"
 			"ypos"									"24"
-			
+
 			"consume_mode"
 			{
 				"xpos"								"140"
 				"ypos"								"33"
 			}
-			
+
 			"fixed_item"
 			{
 				"ypos"								"50"
 			}
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"30"
 			}
-			
+
 			"zpos"									"100"
 			"wide"									"73"
 			"tall"									"26"
@@ -752,7 +752,7 @@
 			"bgcolor_override"						"Blank"
 			"maxchars"								"18"
 		}
-		
+
 		"SeedTextEntryBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -765,7 +765,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"border"								"BlackTransparent70"
-			
+
 			"pin_to_sibling" 						"SeedTextEntry"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
@@ -777,17 +777,17 @@
 			"fieldName"								"MarketButton"
 			"xpos"									"50"
 			"ypos"									"60"
-			
+
 			"fixed_item"
 			{
 				"ypos"								"50"
 			}
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"30"
 			}
-			
+
 			"zpos"									"100"
 			"wide"									"75"
 			"tall"									"0"
@@ -795,7 +795,7 @@
 			"font"									"AdFont_PurchaseButton"
 			"textinsetx"							"0"
 			"textAlignment"							"center"
-		
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"command"								"market"
@@ -812,36 +812,36 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground" 						"0"
-			
+
 			"border_default"						"GreenTransparent70"
 			"border_armed"							"OrangeTransparent70"
 		}
-		
+
 		"MarketButtonFix"
 		{
 			"ControlName"							"CExButton"
 			"fieldName"								"MarketButtonFix"
 			"xpos"									"300"
 			"ypos"									"24"
-			
+
 			"consume_mode"
 			{
 				"xpos"								"214"
 				"ypos"								"33"
 			}
-			
+
 			"fixed_item"
 			{
 				"ypos"								"50"
 			}
-			
+
 			"fixed_paintkit"
 			{
 				"ypos"								"30"
 			}
-			
+
 			"zpos"									"100"
 			"wide"									"80"
 			"tall"									"26"
@@ -849,7 +849,7 @@
 			"font"									"Size 10"
 			"textinsetx"							"0"
 			"textAlignment"							"center"
-		
+
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"command"								"market"
@@ -861,15 +861,15 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground" 						"0"
 			"paintborder" 							"1"
-			
+
 			"border_default"						"GreenTransparent70"
 			"border_armed"							"OrangeTransparent70"
 		}
 	}
-	
+
 	"BGImage"
 	{
 		"ControlName"								"ImagePanel"

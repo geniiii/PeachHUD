@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemBackground"
 		"xpos"					"-5"
@@ -15,7 +15,7 @@
 		"paintbackgroundtype"	"3"
 		"bgcolor_override"		"Black"
 	}
-	
+
 	"TeamColoredBar"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -34,16 +34,16 @@
 		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_White_70"
 		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Red_70"
 		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
+
 		"src_corner_height"		"32"
 		"src_corner_width"		"32"
-		
+
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
 		"font"					"Size 12"
@@ -64,9 +64,9 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CostLabel"
 		"font"					"Size 13"
@@ -83,38 +83,38 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"east"
 		"alpha"					"215"
-		
+
 		"pin_to_sibling"		"ItemBackground"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"BuildingIcon"
 		"xpos"					"9999"
 	}
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"MetalIcon"
 		"xpos"					"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ModeLabel"
 		"xpos"					"9999"
 	}
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"NumberBg"
 		"xpos"					"9999"
 	}
 	"NumberLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"xpos"					"9999"

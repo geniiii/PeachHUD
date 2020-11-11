@@ -117,13 +117,13 @@
 
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"			"0"
-		
+
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
-				
+
 				"border_default"			"RedTransparent50"
 				"border_armed"				"OrangeTransparent50"
 			}
@@ -143,7 +143,7 @@
 					"xpos"					"cs-0.5"
 					"wide"					"150"
 				}
-				
+
 				"autoResize"				"0"
 				"pinCorner"					"3"
 				"visible"					"1"
@@ -163,13 +163,13 @@
 
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"			"0"
-		
+
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
-				
+
 				"border_default"			"GreenTransparent50"
 				"border_armed"				"OrangeTransparent50"
 			}
@@ -183,7 +183,7 @@
 				"wide"						"150"
 				"zpos"						"105"
 				"tall"						"18"
-				
+
 				"autoResize"				"0"
 				"pinCorner"					"3"
 				"visible"					"1"
@@ -203,13 +203,13 @@
 
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
-				
+
 				"paintbackground"			"0"
-		
+
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
-				
+
 				"border_default"			"GreenTransparent50"
 				"border_armed"				"OrangeTransparent50"
 			}

@@ -3,12 +3,12 @@
 "Resource/UI/build_menu/base_unavailable.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"bgcolor_override"		"Blank"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CantBuildReason"
 		"font"					"Size 9"
@@ -28,15 +28,15 @@
 		"brighttext"			"0"
 		"fgcolor"				"White"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"xpos"					"9999"
 		"visible"				"0"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
 }

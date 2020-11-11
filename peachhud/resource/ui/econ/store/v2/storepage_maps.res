@@ -10,24 +10,24 @@
 			"model_ypos"				"-3"
 			"model_wide"				"100"
 			"model_tall"				"70"
-			
+
 			"itemmodelpanel"
 			{
 				"force_square_image"	"1"
 			}
 		}
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"						"0"
 	}
-	
+
 	"ClassFilterNavPanel"
 	{
 		"visible"						"0"
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"						"0"
@@ -42,32 +42,32 @@
 	{
 		"visible"						"0"
 	}
-	
+
 	"SortFilterLabel"
 	{
 		"visible"						"0"
 	}
-	
+
 	"SortFilterComboBox"
 	{
 		"visible"						"0"
 	}
-	
+
 	"NameFilterBG"
 	{
 		"visible"						"0"
 	}
-	
+
 	"SubcategoryBG"
 	{
 		"visible"						"0"
 	}
-	
+
 	"SortFilterBG"
 	{
 		"visible"						"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"					"CExLabel"
@@ -87,7 +87,7 @@
 		"enabled"						"1"
 		"fgcolor"						"White"
 	}
-	
+
 	"SubTitleLabel"
 	{
 		"ControlName"					"CExLabel"
@@ -107,7 +107,7 @@
 		"AllCaps"						"1"
 		"fgcolor"						"White"
 	}
-	
+
 	"LearnMoreButton"
 	{
 		"ControlName"					"CExButton"
@@ -130,16 +130,16 @@
 		"Command"						"maps_learnmore"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
-		
+
 		"paintbackground"				"0"
-		
+
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
-		
+
 		"border_default"				"BlueTransparent70"
 		"border_armed"					"OrangeTransparent70"
 	}
 
-		
+
 }

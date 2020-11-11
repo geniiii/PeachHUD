@@ -3,17 +3,17 @@
 "Resource/UI/build_menu/base_already_built.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"bgcolor_override"		"Blank"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CantBuildReason"
 		"font"					"Size 9"
@@ -34,9 +34,9 @@
 		"brighttext"			"0"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"xpos"					"9999"
 	}
 }

@@ -28,7 +28,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"117 107 94 255"
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"			"CAvatarImagePanel"
@@ -72,14 +72,14 @@
 		"fieldName"				"TextLabel"
 		"fgcolor"				"White"
 		"fgcolor_override" 		"White"
-		
+
 		"if_high_priority"
 		{
 			"fgcolor"			"White"
 			"fgcolor_override"	"White"
 			"font"				"StorePromotionsTitle"
 		}
-		
+
 		"xpos"					"7"
 		"ypos"					"7"
 		"zpos"					"2"

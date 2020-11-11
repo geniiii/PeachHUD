@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base.res"
 {
 	"ItemBackground"
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemBackground"
 		"xpos"					"0"
@@ -15,9 +15,9 @@
 		"paintbackgroundtype"	"0"
 		"bgcolor_override"		"Blank"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"Size 12"
@@ -36,14 +36,14 @@
 		"textAlignment"			"east"
 		"dulltext"				"1"
 		"brighttext"			"0"
-		
+
 		"pin_to_sibling"		"BuildingIcon"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
 		"font"					"Size 12"
@@ -64,8 +64,8 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"ItemBackground"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildingIcon"
@@ -76,20 +76,20 @@
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
-		
+
 		"pin_to_sibling"		"ItemNameLabel"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ModeLabel"
 		"xpos"					"9999"
 	}
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"NumberBg"
